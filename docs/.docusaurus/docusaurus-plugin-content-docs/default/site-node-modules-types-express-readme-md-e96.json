@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/express/README",
+  "title": "Installation",
+  "description": "npm install --save @types/express",
+  "source": "@site/node_modules/@types/express/README.md",
+  "sourceDirName": "node_modules/@types/express",
+  "slug": "/node_modules/@types/express/",
+  "permalink": "/node_modules/@types/express/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@types/express/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

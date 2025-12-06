@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/unist-util-visit-parents/readme",
+  "title": "unist-util-visit-parents",
+  "description": "Build",
+  "source": "@site/node_modules/unist-util-visit-parents/readme.md",
+  "sourceDirName": "node_modules/unist-util-visit-parents",
+  "slug": "/node_modules/unist-util-visit-parents/",
+  "permalink": "/node_modules/unist-util-visit-parents/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/unist-util-visit-parents/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

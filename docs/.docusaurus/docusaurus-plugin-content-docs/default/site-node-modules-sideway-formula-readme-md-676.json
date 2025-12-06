@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@sideway/formula/README",
+  "title": "@sideway/formula",
+  "description": "Math and string formula parser.",
+  "source": "@site/node_modules/@sideway/formula/README.md",
+  "sourceDirName": "node_modules/@sideway/formula",
+  "slug": "/node_modules/@sideway/formula/",
+  "permalink": "/node_modules/@sideway/formula/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@sideway/formula/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

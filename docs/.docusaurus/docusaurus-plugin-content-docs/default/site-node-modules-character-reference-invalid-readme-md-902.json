@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/character-reference-invalid/readme",
+  "title": "character-reference-invalid",
+  "description": "Build",
+  "source": "@site/node_modules/character-reference-invalid/readme.md",
+  "sourceDirName": "node_modules/character-reference-invalid",
+  "slug": "/node_modules/character-reference-invalid/",
+  "permalink": "/node_modules/character-reference-invalid/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/character-reference-invalid/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/camelcase/readme",
+  "title": "camelcase",
+  "description": "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: foo-bar → fooBar",
+  "source": "@site/node_modules/camelcase/readme.md",
+  "sourceDirName": "node_modules/camelcase",
+  "slug": "/node_modules/camelcase/",
+  "permalink": "/node_modules/camelcase/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/camelcase/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

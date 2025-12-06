@@ -1,0 +1,15 @@
+{
+  "id": "ch08-navigation/exercises/chapter8-quiz",
+  "title": "Chapter 8 Quiz: Mobile Robot Navigation and Path Planning",
+  "description": "Multiple Choice Questions",
+  "source": "@site/ch08-navigation/exercises/chapter8-quiz.md",
+  "sourceDirName": "ch08-navigation/exercises",
+  "slug": "/ch08-navigation/exercises/chapter8-quiz",
+  "permalink": "/ch08-navigation/exercises/chapter8-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/ch08-navigation/exercises/chapter8-quiz.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

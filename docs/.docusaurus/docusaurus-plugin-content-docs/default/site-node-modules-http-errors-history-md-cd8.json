@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/http-errors/HISTORY",
+  "title": "2.0.1 / 2025-11-20",
+  "description": "* deps: use tilde notation for dependencies",
+  "source": "@site/node_modules/http-errors/HISTORY.md",
+  "sourceDirName": "node_modules/http-errors",
+  "slug": "/node_modules/http-errors/HISTORY",
+  "permalink": "/node_modules/http-errors/HISTORY",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/http-errors/HISTORY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

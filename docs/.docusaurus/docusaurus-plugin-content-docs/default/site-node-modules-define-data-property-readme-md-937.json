@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/define-data-property/README",
+  "title": "define-data-property <sup>[![Version Badge][npm-version-svg]][package-url]</sup>",
+  "description": "github actions",
+  "source": "@site/node_modules/define-data-property/README.md",
+  "sourceDirName": "node_modules/define-data-property",
+  "slug": "/node_modules/define-data-property/",
+  "permalink": "/node_modules/define-data-property/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/define-data-property/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

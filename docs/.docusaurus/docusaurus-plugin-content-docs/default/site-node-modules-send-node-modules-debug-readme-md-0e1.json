@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/send/node_modules/debug/README",
+  "title": "debug",
+  "description": "Build Status  Coverage Status  Slack OpenCollective",
+  "source": "@site/node_modules/send/node_modules/debug/README.md",
+  "sourceDirName": "node_modules/send/node_modules/debug",
+  "slug": "/node_modules/send/node_modules/debug/",
+  "permalink": "/node_modules/send/node_modules/debug/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/send/node_modules/debug/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

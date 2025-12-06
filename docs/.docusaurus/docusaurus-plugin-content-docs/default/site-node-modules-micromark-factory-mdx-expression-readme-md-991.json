@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/micromark-factory-mdx-expression/readme",
+  "title": "micromark-factory-mdx-expression",
+  "description": "Build",
+  "source": "@site/node_modules/micromark-factory-mdx-expression/readme.md",
+  "sourceDirName": "node_modules/micromark-factory-mdx-expression",
+  "slug": "/node_modules/micromark-factory-mdx-expression/",
+  "permalink": "/node_modules/micromark-factory-mdx-expression/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/micromark-factory-mdx-expression/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

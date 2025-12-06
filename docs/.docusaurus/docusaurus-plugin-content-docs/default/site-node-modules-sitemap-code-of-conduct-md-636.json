@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/sitemap/CODE_OF_CONDUCT",
+  "title": "Contributor Covenant Code of Conduct",
+  "description": "Our Pledge",
+  "source": "@site/node_modules/sitemap/CODE_OF_CONDUCT.md",
+  "sourceDirName": "node_modules/sitemap",
+  "slug": "/node_modules/sitemap/CODE_OF_CONDUCT",
+  "permalink": "/node_modules/sitemap/CODE_OF_CONDUCT",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/sitemap/CODE_OF_CONDUCT.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

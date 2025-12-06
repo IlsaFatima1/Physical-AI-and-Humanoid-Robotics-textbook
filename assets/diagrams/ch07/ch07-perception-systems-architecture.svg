@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sensor { fill: #4e89e5; stroke: #2c5aa0; stroke-width: 2; rx: 10; }
+    .processing { fill: #7eb875; stroke: #4a7c47; stroke-width: 2; }
+    .vision { fill: #e5b060; stroke: #a0702c; stroke-width: 2; }
+    .fusion { fill: #c97bae; stroke: #8a4a73; stroke-width: 2; }
+    .output { fill: #6aa7a7; stroke: #4a7a7a; stroke-width: 2; }
+    .text { fill: white; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; }
+    .label { fill: #333; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">Perception Systems and Computer Vision Architecture</text>
+
+  <!-- Sensor Layer -->
+  <rect x="100" y="80" width="600" height="80" fill="#f0f8ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Sensor Layer</text>
+
+  <!-- Camera Sensor -->
+  <rect x="130" y="120" width="120" height="40" class="sensor" />
+  <text x="190" y="140" class="text" font-size="12">Camera</text>
+
+  <!-- LiDAR Sensor -->
+  <rect x="270" y="120" width="120" height="40" class="sensor" />
+  <text x="330" y="140" class="text" font-size="12">LiDAR</text>
+
+  <!-- IMU Sensor -->
+  <rect x="410" y="120" width="120" height="40" class="sensor" />
+  <text x="470" y="140" class="text" font-size="12">IMU</text>
+
+  <!-- Other Sensors -->
+  <rect x="550" y="120" width="120" height="40" class="sensor" />
+  <text x="610" y="140" class="text" font-size="12">Other</text>
+
+  <!-- Preprocessing Layer -->
+  <rect x="100" y="180" width="600" height="80" fill="#f0fff0" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="210" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Preprocessing Layer</text>
+
+  <!-- Image Calibration -->
+  <rect x="130" y="220" width="120" height="40" class="processing" />
+  <text x="190" y="240" class="text" font-size="10">Calibration</text>
+
+  <!-- Noise Reduction -->
+  <rect x="270" y="220" width="120" height="40" class="processing" />
+  <text x="330" y="240" class="text" font-size="10">Noise Reduction</text>
+
+  <!-- Rectification -->
+  <rect x="410" y="220" width="120" height="40" class="processing" />
+  <text x="470" y="240" class="text" font-size="10">Rectification</text>
+
+  <!-- Enhancement -->
+  <rect x="550" y="220" width="120" height="40" class="processing" />
+  <text x="610" y="240" class="text" font-size="10">Enhancement</text>
+
+  <!-- Computer Vision Layer -->
+  <rect x="100" y="280" width="600" height="100" fill="#fff8f0" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="310" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Computer Vision Layer</text>
+
+  <!-- Feature Detection -->
+  <rect x="130" y="330" width="120" height="40" class="vision" />
+  <text x="190" y="350" class="text" font-size="10">Feature Detection</text>
+
+  <!-- Object Detection -->
+  <rect x="270" y="330" width="120" height="40" class="vision" />
+  <text x="330" y="350" class="text" font-size="10">Object Detection</text>
+
+  <!-- Tracking -->
+  <rect x="410" y="330" width="120" height="40" class="vision" />
+  <text x="470" y="350" class="text" font-size="10">Tracking</text>
+
+  <!-- Segmentation -->
+  <rect x="550" y="330" width="120" height="40" class="vision" />
+  <text x="610" y="350" class="text" font-size="10">Segmentation</text>
+
+  <!-- Deep Learning Layer -->
+  <rect x="100" y="400" width="600" height="80" fill="#f8f0ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="430" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Deep Learning Layer</text>
+
+  <!-- CNN Processing -->
+  <rect x="130" y="440" width="120" height="30" class="vision" />
+  <text x="190" y="455" class="text" font-size="10">CNN Processing</text>
+
+  <!-- Semantic Segmentation -->
+  <rect x="270" y="440" width="120" height="30" class="vision" />
+  <text x="330" y="455" class="text" font-size="10">Semantic Segmentation</text>
+
+  <!-- Pose Estimation -->
+  <rect x="410" y="440" width="120" height="30" class="vision" />
+  <text x="470" y="455" class="text" font-size="10">Pose Estimation</text>
+
+  <!-- Recognition -->
+  <rect x="550" y="440" width="120" height="30" class="vision" />
+  <text x="610" y="455" class="text" font-size="10">Recognition</text>
+
+  <!-- Fusion Layer -->
+  <rect x="100" y="500" width="600" height="60" fill="#fff0f8" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="520" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Sensor Fusion & Decision Layer</text>
+
+  <!-- Data Association -->
+  <rect x="200" y="530" width="100" height="25" class="fusion" />
+  <text x="250" y="542" class="text" font-size="9">Data Association</text>
+
+  <!-- State Estimation -->
+  <rect x="325" y="530" width="100" height="25" class="fusion" />
+  <text x="375" y="542" class="text" font-size="9">State Estimation</text>
+
+  <!-- Decision Making -->
+  <rect x="450" y="530" width="100" height="25" class="fusion" />
+  <text x="500" y="542" class="text" font-size="9">Decision Making</text>
+
+  <!-- Output Layer -->
+  <rect x="300" y="570" width="200" height="40" class="output" />
+  <text x="400" y="590" class="text" font-size="12">Perception Output</text>
+
+  <!-- Arrows - Sensor to Preprocessing -->
+  <line x1="190" y1="160" x2="190" y2="180" class="arrow" />
+  <line x1="330" y1="160" x2="330" y2="180" class="arrow" />
+  <line x1="470" y1="160" x2="470" y2="180" class="arrow" />
+  <line x1="610" y1="160" x2="610" y2="180" class="arrow" />
+
+  <!-- Arrows - Preprocessing to Computer Vision -->
+  <line x1="190" y1="260" x2="190" y2="280" class="arrow" />
+  <line x1="330" y1="260" x2="330" y2="280" class="arrow" />
+  <line x1="470" y1="260" x2="470" y2="280" class="arrow" />
+  <line x1="610" y1="260" x2="610" y2="280" class="arrow" />
+
+  <!-- Arrows - Computer Vision to Deep Learning -->
+  <line x1="190" y1="370" x2="190" y2="400" class="arrow" />
+  <line x1="330" y1="370" x2="330" y2="400" class="arrow" />
+  <line x1="470" y1="370" x2="470" y2="400" class="arrow" />
+  <line x1="610" y1="370" x2="610" y2="400" class="arrow" />
+
+  <!-- Arrows - Deep Learning to Fusion -->
+  <line x1="190" y1="470" x2="250" y2="500" class="arrow" />
+  <line x1="330" y1="470" x2="375" y2="500" class="arrow" />
+  <line x1="470" y1="470" x2="500" y2="500" class="arrow" />
+  <line x1="610" y1="470" x2="550" y2="500" class="arrow" />
+
+  <!-- Arrows - Fusion to Output -->
+  <line x1="250" y1="555" x2="350" y2="570" class="arrow" />
+  <line x1="375" y1="555" x2="400" y2="570" class="arrow" />
+  <line x1="500" y1="555" x2="450" y2="570" class="arrow" />
+
+  <!-- Horizontal arrows within layers -->
+  <line x1="250" y1="350" x2="270" y2="350" class="arrow" />
+  <line x1="390" y1="350" x2="410" y2="350" class="arrow" />
+  <line x1="530" y1="350" x2="550" y2="350" class="arrow" />
+
+  <line x1="250" y1="455" x2="270" y2="455" class="arrow" />
+  <line x1="390" y1="455" x2="410" y2="455" class="arrow" />
+  <line x1="530" y1="455" x2="550" y2="455" class="arrow" />
+
+  <!-- Legend -->
+  <rect x="50" y="520" width="180" height="120" fill="none" stroke="#333" stroke-width="1" />
+  <text x="140" y="540" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Legend</text>
+  <rect x="60" y="560" width="20" height="15" class="sensor" />
+  <text x="90" y="570" font-size="12" text-anchor="start" fill="#333">Sensors</text>
+
+  <rect x="60" y="585" width="20" height="15" class="processing" />
+  <text x="90" y="595" font-size="12" text-anchor="start" fill="#333">Processing</text>
+
+  <rect x="60" y="610" width="20" height="15" class="vision" />
+  <text x="90" y="620" font-size="12" text-anchor="start" fill="#333">Vision</text>
+
+  <rect x="60" y="635" width="20" height="15" class="fusion" />
+  <text x="90" y="645" font-size="12" text-anchor="start" fill="#333">Fusion</text>
+
+  <rect x="60" y="660" width="20" height="15" class="output" />
+  <text x="90" y="670" font-size="12" text-anchor="start" fill="#333">Output</text>
+
+  <!-- Perception Loop -->
+  <text x="650" y="150" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Perception Loop</text>
+  <text x="650" y="170" font-size="12" text-anchor="middle" fill="#333">Sensing → Processing →</text>
+  <text x="650" y="190" font-size="12" text-anchor="middle" fill="#333">Understanding → Action</text>
+
+  <!-- Example Application -->
+  <text x="650" y="250" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Example: Object Detection</text>
+  <text x="650" y="270" font-size="12" text-anchor="middle" fill="#333">Camera → Preprocessing →</text>
+  <text x="650" y="290" font-size="12" text-anchor="middle" fill="#333">CNN → Detection → Action</text>
+
+  <!-- Uncertainty -->
+  <text x="650" y="350" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Uncertainty Handling</text>
+  <text x="650" y="370" font-size="12" text-anchor="middle" fill="#333">Confidence Scores,</text>
+  <text x="650" y="390" font-size="12" text-anchor="middle" fill="#333">Bayesian Methods</text>
+</svg>

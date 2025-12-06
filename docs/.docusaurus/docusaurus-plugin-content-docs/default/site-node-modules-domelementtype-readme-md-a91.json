@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/domelementtype/readme",
+  "title": "readme",
+  "description": "All the types of nodes in htmlparser2's DOM.",
+  "source": "@site/node_modules/domelementtype/readme.md",
+  "sourceDirName": "node_modules/domelementtype",
+  "slug": "/node_modules/domelementtype/",
+  "permalink": "/node_modules/domelementtype/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/domelementtype/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

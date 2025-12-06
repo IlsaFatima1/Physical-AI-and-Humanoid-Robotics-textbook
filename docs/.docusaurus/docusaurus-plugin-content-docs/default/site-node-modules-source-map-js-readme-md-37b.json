@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/source-map-js/README",
+  "title": "Source Map JS",
+  "description": "NPM",
+  "source": "@site/node_modules/source-map-js/README.md",
+  "sourceDirName": "node_modules/source-map-js",
+  "slug": "/node_modules/source-map-js/",
+  "permalink": "/node_modules/source-map-js/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/source-map-js/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

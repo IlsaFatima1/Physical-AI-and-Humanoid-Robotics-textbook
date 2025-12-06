@@ -1,0 +1,117 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <title>Humanoid Robot Architecture</title>
+  <desc>Diagram showing the core components of a humanoid robot system</desc>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Humanoid Robot Outline -->
+  <g transform="translate(400, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="30" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <!-- Torso -->
+    <rect x="-25" y="30" width="50" height="80" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <!-- Left Arm -->
+    <line x1="-25" y1="40" x2="-70" y2="70" stroke="#495057" stroke-width="8" stroke-linecap="round"/>
+    <!-- Right Arm -->
+    <line x1="25" y1="40" x2="70" y2="70" stroke="#495057" stroke-width="8" stroke-linecap="round"/>
+    <!-- Left Leg -->
+    <line x1="-15" y1="110" x2="-15" y2="180" stroke="#495057" stroke-width="8" stroke-linecap="round"/>
+    <!-- Right Leg -->
+    <line x1="15" y1="110" x2="15" y2="180" stroke="#495057" stroke-width="8" stroke-linecap="round"/>
+    <!-- Left Foot -->
+    <rect x="-25" y="180" width="20" height="10" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <!-- Right Foot -->
+    <rect x="5" y="180" width="20" height="10" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  </g>
+
+  <!-- Component Labels -->
+  <g font-family="Arial" font-size="14" fill="#212529">
+    <!-- Mechanical Structure -->
+    <rect x="50" y="50" width="160" height="80" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+    <text x="60" y="70" font-weight="bold">Mechanical Structure</text>
+    <text x="60" y="90">• Links & Joints</text>
+    <text x="60" y="110">• Actuators</text>
+    <text x="60" y="130">• Transmission</text>
+
+    <!-- Sensing System -->
+    <rect x="50" y="150" width="160" height="100" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+    <text x="60" y="170" font-weight="bold">Sensing System</text>
+    <text x="60" y="190">• Proprioceptive</text>
+    <text x="60" y="210">• Exteroceptive</text>
+    <text x="60" y="230">• Tactile Sensors</text>
+    <text x="60" y="250">• IMU, Cameras</text>
+
+    <!-- Computing System -->
+    <rect x="50" y="270" width="160" height="80" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+    <text x="60" y="290" font-weight="bold">Computing System</text>
+    <text x="60" y="310">• Central CPU</text>
+    <text x="60" y="330">• Real-time Controller</text>
+    <text x="60" y="350">• Communication</text>
+
+    <!-- Power System -->
+    <rect x="50" y="370" width="160" height="60" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+    <text x="60" y="390" font-weight="bold">Power System</text>
+    <text x="60" y="410">• Batteries & Management</text>
+
+    <!-- AI System -->
+    <rect x="600" y="50" width="160" height="120" fill="#f8d7da" stroke="#721c24" stroke-width="2"/>
+    <text x="610" y="70" font-weight="bold">AI System</text>
+    <text x="610" y="90">• Perception</text>
+    <text x="610" y="110">• Decision Making</text>
+    <text x="610" y="130">• Learning</text>
+    <text x="610" y="150">• Planning</text>
+
+    <!-- Environment -->
+    <rect x="600" y="190" width="160" height="80" fill="#d4edda" stroke="#155724" stroke-width="2"/>
+    <text x="610" y="210" font-weight="bold">Environment</text>
+    <text x="610" y="230">• Objects</text>
+    <text x="610" y="250">• Humans</text>
+    <text x="610" y="270">• Obstacles</text>
+  </g>
+
+  <!-- Arrows showing interactions -->
+  <g stroke="#6c757d" stroke-width="2" marker-end="url(#arrowhead)">
+    <!-- Sensing arrows -->
+    <line x1="210" y1="100" x2="350" y2="130"/>
+    <line x1="210" y1="200" x2="350" y2="150"/>
+    <line x1="210" y1="310" x2="350" y2="170"/>
+
+    <!-- AI processing -->
+    <line x1="380" y1="160" x2="600" y2="110"/>
+    <line x1="600" y1="140" x2="380" y2="180"/>
+
+    <!-- Environment interaction -->
+    <line x1="680" y1="190" x2="680" y2="130"/>
+    <line x1="680" y1="270" x2="450" y2="200"/>
+
+    <!-- Feedback loops -->
+    <line x1="400" y1="250" x2="600" y2="230"/>
+    <line x1="600" y1="250" x2="400" y2="270"/>
+  </g>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6c757d"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#212529">
+    Humanoid Robot Architecture: Core Components and Interactions
+  </text>
+
+  <!-- Legend -->
+  <g font-size="12" fill="#212529">
+    <rect x="50" y="450" width="15" height="15" fill="#d1ecf1" stroke="#0c5460"/>
+    <text x="70" y="462">Robot Subsystems</text>
+
+    <rect x="50" y="475" width="15" height="15" fill="#f8d7da" stroke="#721c24"/>
+    <text x="70" y="487">AI Components</text>
+
+    <rect x="50" y="500" width="15" height="15" fill="#d4edda" stroke="#155724"/>
+    <text x="70" y="512">Environment</text>
+  </g>
+</svg>

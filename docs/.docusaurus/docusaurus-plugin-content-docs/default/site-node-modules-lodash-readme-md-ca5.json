@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/lodash/README",
+  "title": "lodash v4.17.21",
+  "description": "The Lodash library exported as Node.js modules.",
+  "source": "@site/node_modules/lodash/README.md",
+  "sourceDirName": "node_modules/lodash",
+  "slug": "/node_modules/lodash/",
+  "permalink": "/node_modules/lodash/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/lodash/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/micromark-extension-mdx-md/readme",
+  "title": "micromark-extension-mdx-md",
+  "description": "Build",
+  "source": "@site/node_modules/micromark-extension-mdx-md/readme.md",
+  "sourceDirName": "node_modules/micromark-extension-mdx-md",
+  "slug": "/node_modules/micromark-extension-mdx-md/",
+  "permalink": "/node_modules/micromark-extension-mdx-md/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/micromark-extension-mdx-md/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

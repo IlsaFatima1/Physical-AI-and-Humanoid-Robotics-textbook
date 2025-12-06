@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/tinypool/README",
+  "title": "Tinypool - the node.js worker pool 🧵",
+  "description": "Piscina: A fast, efficient Node.js Worker Thread Pool implementation",
+  "source": "@site/node_modules/tinypool/README.md",
+  "sourceDirName": "node_modules/tinypool",
+  "slug": "/node_modules/tinypool/",
+  "permalink": "/node_modules/tinypool/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/tinypool/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

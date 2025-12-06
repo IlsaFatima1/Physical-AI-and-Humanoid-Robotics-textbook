@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/unist/README",
+  "title": "Installation",
+  "description": "npm install --save @types/unist",
+  "source": "@site/node_modules/@types/unist/README.md",
+  "sourceDirName": "node_modules/@types/unist",
+  "slug": "/node_modules/@types/unist/",
+  "permalink": "/node_modules/@types/unist/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@types/unist/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

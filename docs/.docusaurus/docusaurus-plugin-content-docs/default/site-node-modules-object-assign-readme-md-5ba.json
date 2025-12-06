@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/object.assign/README",
+  "title": "object.assign <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>",
+  "description": "github actions",
+  "source": "@site/node_modules/object.assign/README.md",
+  "sourceDirName": "node_modules/object.assign",
+  "slug": "/node_modules/object.assign/",
+  "permalink": "/node_modules/object.assign/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/object.assign/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/connect-history-api-fallback/README",
+  "title": "Installation",
+  "description": "npm install --save @types/connect-history-api-fallback",
+  "source": "@site/node_modules/@types/connect-history-api-fallback/README.md",
+  "sourceDirName": "node_modules/@types/connect-history-api-fallback",
+  "slug": "/node_modules/@types/connect-history-api-fallback/",
+  "permalink": "/node_modules/@types/connect-history-api-fallback/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@types/connect-history-api-fallback/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ch01-introduction/exercises/chapter1-quiz",
+  "title": "Chapter 1 Quiz: Introduction to Physical AI and Humanoid Robotics",
+  "description": "Multiple Choice Questions",
+  "source": "@site/ch01-introduction/exercises/chapter1-quiz.md",
+  "sourceDirName": "ch01-introduction/exercises",
+  "slug": "/ch01-introduction/exercises/chapter1-quiz",
+  "permalink": "/ch01-introduction/exercises/chapter1-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/ch01-introduction/exercises/chapter1-quiz.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

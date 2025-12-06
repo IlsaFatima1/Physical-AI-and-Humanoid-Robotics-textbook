@@ -1,0 +1,206 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/-be3": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---aba-d70"
+    }
+  },
+  "/-d3d": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---22-d-307"
+  },
+  "/-2a9": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/appendices/appendix-a-installation-028": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---appendices-appendix-a-installation-5-b-9-a16"
+  },
+  "/appendices/appendix-b-setup-d0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---appendices-appendix-b-setupa-36-f92"
+  },
+  "/appendices/appendix-c-troubleshooting-8c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---appendices-appendix-c-troubleshooting-46-c-a9f"
+  },
+  "/appendices/appendix-e-code-templates-5ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---appendices-appendix-e-code-templatesa-3-d-504"
+  },
+  "/appendices/appendix-g-resources-494": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---appendices-appendix-g-resourcesdab-d50"
+  },
+  "/ch01-introduction/-d1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-01-introduction-959-3a1"
+  },
+  "/ch01-introduction/exercises/chapter1-quiz-cdc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-01-introduction-exercises-chapter-1-quizdd-1-e79"
+  },
+  "/ch02-fundamentals/-433": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-02-fundamentals-550-852"
+  },
+  "/ch02-fundamentals/exercises/chapter2-quiz-00b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-02-fundamentals-exercises-chapter-2-quiz-890-337"
+  },
+  "/ch03-ros2-architecture/-d55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-03-ros-2-architecture-2-ea-cb2"
+  },
+  "/ch03-ros2-architecture/exercises/chapter3-quiz-c9e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-03-ros-2-architecture-exercises-chapter-3-quizacb-586"
+  },
+  "/ch04-gazebo-simulation/-943": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-04-gazebo-simulation-e-93-87e"
+  },
+  "/ch04-gazebo-simulation/exercises/chapter4-quiz-389": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-04-gazebo-simulation-exercises-chapter-4-quiz-04-a-d02"
+  },
+  "/ch05-isaac-platform/-457": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-05-isaac-platform-427-43a"
+  },
+  "/ch05-isaac-platform/exercises/chapter5-quiz-7ff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-05-isaac-platform-exercises-chapter-5-quiz-7-d-4-fce"
+  },
+  "/ch06-urdf-xacro/-cd8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-06-urdf-xacro-c-83-e04"
+  },
+  "/ch06-urdf-xacro/exercises/chapter6-quiz-525": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-06-urdf-xacro-exercises-chapter-6-quiz-818-5a8"
+  },
+  "/ch07-perception-systems/-1ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-07-perception-systems-406-a11"
+  },
+  "/ch07-perception-systems/exercises/chapter7-quiz-e45": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-07-perception-systems-exercises-chapter-7-quizd-4-f-1b2"
+  },
+  "/ch08-navigation/-51a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-08-navigation-326-3a7"
+  },
+  "/ch08-navigation/exercises/chapter8-quiz-684": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-08-navigation-exercises-chapter-8-quiza-64-d6e"
+  },
+  "/ch09-manipulation/-25c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-09-manipulation-5-d-5-e62"
+  },
+  "/ch09-manipulation/exercises/chapter9-quiz-2e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-09-manipulation-exercises-chapter-9-quiz-57-b-c2f"
+  },
+  "/ch10-vla-models/-890": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-10-vla-models-34-f-42f"
+  },
+  "/ch11-humanoid-design/-011": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-11-humanoid-design-cfa-81a"
+  },
+  "/ch12-learning-adaptation/-6ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-12-learning-adaptation-9-ed-9ce"
+  },
+  "/ch13-multi-robot-systems/-ee3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-13-multi-robot-systems-716-931"
+  },
+  "/ch14-safety-ethics/-878": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-14-safety-ethics-a-6-d-b4c"
+  },
+  "/ch15-capstone-project/-af2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-15-capstone-project-35-b-521"
+  },
+  "/ch15-capstone-project/exercises/chapter15-quiz-c25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ch-15-capstone-project-exercises-chapter-15-quiz-1-fd-ccf"
+  },
+  "/getting-started/intro-6e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---getting-started-intro-977-2ab"
+  },
+  "/reference/api-reference-592": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---reference-api-reference-635-9e9"
+  },
+  "/reference/dependencies-03e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---reference-dependencies-028-6b0"
+  },
+  "/reference/glossary-940": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---reference-glossary-393-89c"
+  },
+  "/reference/hardware-specs-7bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---reference-hardware-specs-52-d-d2c"
+  },
+  "/reference/quiz-template-c01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---reference-quiz-template-6-a-8-7ea"
+  },
+  "/-729": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---082-5ba"
+  }
+}

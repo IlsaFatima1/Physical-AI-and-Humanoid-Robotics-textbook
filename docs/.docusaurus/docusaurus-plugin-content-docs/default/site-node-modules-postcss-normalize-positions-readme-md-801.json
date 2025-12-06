@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-normalize-positions/README",
+  "title": "[postcss][postcss]-normalize-positions",
+  "description": "Normalize positions with PostCSS.",
+  "source": "@site/node_modules/postcss-normalize-positions/README.md",
+  "sourceDirName": "node_modules/postcss-normalize-positions",
+  "slug": "/node_modules/postcss-normalize-positions/",
+  "permalink": "/node_modules/postcss-normalize-positions/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/postcss-normalize-positions/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

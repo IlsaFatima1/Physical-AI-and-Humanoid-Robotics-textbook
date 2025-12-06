@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/vfile/readme",
+  "title": "readme",
+  "description": "Build",
+  "source": "@site/node_modules/vfile/readme.md",
+  "sourceDirName": "node_modules/vfile",
+  "slug": "/node_modules/vfile/",
+  "permalink": "/node_modules/vfile/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/vfile/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

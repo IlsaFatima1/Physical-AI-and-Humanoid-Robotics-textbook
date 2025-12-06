@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/eval/README",
+  "title": "Eval - require() for module content!",
+  "description": "Overview",
+  "source": "@site/node_modules/eval/README.md",
+  "sourceDirName": "node_modules/eval",
+  "slug": "/node_modules/eval/",
+  "permalink": "/node_modules/eval/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/eval/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

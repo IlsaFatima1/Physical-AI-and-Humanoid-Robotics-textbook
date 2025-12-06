@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/media-typer/README",
+  "title": "media-typer",
+  "description": "NPM Version",
+  "source": "@site/node_modules/media-typer/README.md",
+  "sourceDirName": "node_modules/media-typer",
+  "slug": "/node_modules/media-typer/",
+  "permalink": "/node_modules/media-typer/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/media-typer/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

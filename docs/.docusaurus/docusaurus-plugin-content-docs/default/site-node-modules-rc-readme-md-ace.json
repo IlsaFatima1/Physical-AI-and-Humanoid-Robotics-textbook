@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/rc/README",
+  "title": "rc",
+  "description": "The non-configurable configuration loader for lazy people.",
+  "source": "@site/node_modules/rc/README.md",
+  "sourceDirName": "node_modules/rc",
+  "slug": "/node_modules/rc/",
+  "permalink": "/node_modules/rc/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/rc/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

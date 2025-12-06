@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/autoprefixer/README",
+  "title": "Autoprefixer [![Cult Of Martians][cult-img]][cult]",
+  "description": "<img align=\"right\" width=\"94\" height=\"71\"",
+  "source": "@site/node_modules/autoprefixer/README.md",
+  "sourceDirName": "node_modules/autoprefixer",
+  "slug": "/node_modules/autoprefixer/",
+  "permalink": "/node_modules/autoprefixer/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/autoprefixer/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

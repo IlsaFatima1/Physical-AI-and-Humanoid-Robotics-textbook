@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .node { fill: #4e89e5; stroke: #2c5aa0; stroke-width: 2; rx: 10; }
+    .topic { fill: #7eb875; stroke: #4a7c47; stroke-width: 2; }
+    .service { fill: #e5b060; stroke: #a0702c; stroke-width: 2; }
+    .action { fill: #c97bae; stroke: #8a4a73; stroke-width: 2; }
+    .text { fill: white; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; }
+    .label { fill: #333; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">ROS 2 Architecture: Communication Patterns</text>
+
+  <!-- DDS Middleware Layer -->
+  <rect x="50" y="100" width="700" height="80" fill="#f0f8ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="140" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">DDS Middleware (Communication Layer)</text>
+
+  <!-- Robot Node -->
+  <rect x="100" y="220" width="200" height="120" class="node" />
+  <text x="200" y="250" class="text">Robot Node</text>
+  <text x="200" y="275" class="text" font-size="12">- Publisher</text>
+  <text x="200" y="295" class="text" font-size="12">- Subscriber</text>
+  <text x="200" y="315" class="text" font-size="12">- Service Server</text>
+
+  <!-- Controller Node -->
+  <rect x="500" y="220" width="200" height="120" class="node" />
+  <text x="600" y="250" class="text">Controller Node</text>
+  <text x="600" y="275" class="text" font-size="12">- Publisher</text>
+  <text x="600" y="295" class="text" font-size="12">- Subscriber</text>
+  <text x="600" y="315" class="text" font-size="12">- Service Client</text>
+
+  <!-- Topics -->
+  <ellipse cx="350" cy="150" rx="60" ry="25" class="topic" />
+  <text x="350" y="150" class="text" font-size="12">/sensor_data</text>
+
+  <ellipse cx="450" cy="150" rx="60" ry="25" class="topic" />
+  <text x="450" y="150" class="text" font-size="12">/cmd_vel</text>
+
+  <!-- Service -->
+  <rect x="400" y="380" width="80" height="40" class="service" />
+  <text x="440" y="400" class="text" font-size="12">/navigate</text>
+
+  <!-- Action -->
+  <rect x="400" y="450" width="80" height="40" class="action" />
+  <text x="440" y="470" class="text" font-size="12">/fibonacci</text>
+
+  <!-- Communication Arrows -->
+  <!-- Robot publishes to sensor_data -->
+  <line x1="200" y1="220" x2="350" y2="175" class="arrow" />
+
+  <!-- Controller subscribes to sensor_data -->
+  <line x1="350" y1="175" x2="600" y2="220" class="arrow" />
+
+  <!-- Controller publishes to cmd_vel -->
+  <line x1="600" y1="220" x2="450" y2="175" class="arrow" />
+
+  <!-- Robot subscribes to cmd_vel -->
+  <line x1="450" y1="175" x2="200" y2="220" class="arrow" />
+
+  <!-- Service Request -->
+  <line x1="600" y1="340" x2="440" y2="380" class="arrow" stroke-dasharray="5,5" />
+
+  <!-- Service Response -->
+  <line x1="480" y1="380" x2="200" y2="340" class="arrow" stroke-dasharray="5,5" />
+
+  <!-- Action Communication -->
+  <line x1="200" y1="340" x2="440" y2="450" class="arrow" stroke-dasharray="2,2" />
+  <line x1="440" y1="490" x2="200" y2="340" class="arrow" stroke-dasharray="2,2" />
+  <line x1="600" y1="340" x2="480" y2="450" class="arrow" stroke-dasharray="2,2" />
+  <line x1="480" y1="490" x2="600" y2="340" class="arrow" stroke-dasharray="2,2" />
+
+  <!-- Legend -->
+  <rect x="50" y="450" width="150" height="120" fill="none" stroke="#333" stroke-width="1" />
+  <text x="125" y="470" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Legend</text>
+  <rect x="60" y="490" width="20" height="15" class="topic" />
+  <text x="90" y="500" font-size="12" text-anchor="start" fill="#333">Topic (Pub/Sub)</text>
+
+  <rect x="60" y="515" width="20" height="15" class="service" />
+  <text x="90" y="525" font-size="12" text-anchor="start" fill="#333">Service</text>
+
+  <rect x="60" y="540" width="20" height="15" class="action" />
+  <text x="90" y="550" font-size="12" text-anchor="start" fill="#333">Action</text>
+</svg>

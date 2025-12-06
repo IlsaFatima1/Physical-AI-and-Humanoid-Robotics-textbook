@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/methods/README",
+  "title": "Methods",
+  "description": "NPM Version",
+  "source": "@site/node_modules/methods/README.md",
+  "sourceDirName": "node_modules/methods",
+  "slug": "/node_modules/methods/",
+  "permalink": "/node_modules/methods/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/methods/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

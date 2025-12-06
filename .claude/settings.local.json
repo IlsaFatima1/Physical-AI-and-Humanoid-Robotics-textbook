@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"Generate a full Specification Document for the Physical AI & Humanoid Robotics Textbook project.\nThis spec should translate the constitution into actionable instructions.\nInclude:\n\nNumber of chapters (12–15)\n\nChapter-level requirements\n\nRequired components inside every chapter\n(intro, technical explanation, diagrams, examples, ROS/Gazebo/Isaac snippets, summary, quiz)\n\nCross-chapter dependencies\n\nGlossary + Appendix requirements\n\nFolder structure for Docusaurus /docs\n\nRequirements for Device/Hardware reference tables\n\nCapstone Project chapter specification (Autonomous Humanoid with VLA)\" -Number 1 -ShortName \"textbook-spec\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/unpipe/README",
+  "title": "unpipe",
+  "description": "NPM Version",
+  "source": "@site/node_modules/unpipe/README.md",
+  "sourceDirName": "node_modules/unpipe",
+  "slug": "/node_modules/unpipe/",
+  "permalink": "/node_modules/unpipe/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/unpipe/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

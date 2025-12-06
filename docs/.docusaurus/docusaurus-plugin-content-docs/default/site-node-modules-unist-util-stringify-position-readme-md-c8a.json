@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/unist-util-stringify-position/readme",
+  "title": "unist-util-stringify-position",
+  "description": "Build",
+  "source": "@site/node_modules/unist-util-stringify-position/readme.md",
+  "sourceDirName": "node_modules/unist-util-stringify-position",
+  "slug": "/node_modules/unist-util-stringify-position/",
+  "permalink": "/node_modules/unist-util-stringify-position/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/unist-util-stringify-position/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

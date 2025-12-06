@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/core/README",
+  "title": "@babel/core",
+  "description": "Babel compiler core.",
+  "source": "@site/node_modules/@babel/core/README.md",
+  "sourceDirName": "node_modules/@babel/core",
+  "slug": "/node_modules/@babel/core/",
+  "permalink": "/node_modules/@babel/core/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@babel/core/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

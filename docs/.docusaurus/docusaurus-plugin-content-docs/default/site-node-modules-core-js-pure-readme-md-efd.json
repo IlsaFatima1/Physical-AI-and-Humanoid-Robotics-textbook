@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/core-js-pure/README",
+  "title": "README",
+  "description": "logo",
+  "source": "@site/node_modules/core-js-pure/README.md",
+  "sourceDirName": "node_modules/core-js-pure",
+  "slug": "/node_modules/core-js-pure/",
+  "permalink": "/node_modules/core-js-pure/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/core-js-pure/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

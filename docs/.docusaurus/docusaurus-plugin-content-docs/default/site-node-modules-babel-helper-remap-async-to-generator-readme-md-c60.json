@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/helper-remap-async-to-generator/README",
+  "title": "@babel/helper-remap-async-to-generator",
+  "description": "Helper function to remap async functions to generators",
+  "source": "@site/node_modules/@babel/helper-remap-async-to-generator/README.md",
+  "sourceDirName": "node_modules/@babel/helper-remap-async-to-generator",
+  "slug": "/node_modules/@babel/helper-remap-async-to-generator/",
+  "permalink": "/node_modules/@babel/helper-remap-async-to-generator/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@babel/helper-remap-async-to-generator/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

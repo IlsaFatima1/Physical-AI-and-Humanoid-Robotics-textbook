@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-normalize-string/README",
+  "title": "[postcss][postcss]-normalize-string",
+  "description": "Normalize strings with PostCSS.",
+  "source": "@site/node_modules/postcss-normalize-string/README.md",
+  "sourceDirName": "node_modules/postcss-normalize-string",
+  "slug": "/node_modules/postcss-normalize-string/",
+  "permalink": "/node_modules/postcss-normalize-string/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/postcss-normalize-string/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ch07-perception-systems/index",
+  "title": "Chapter 7: Perception Systems and Computer Vision",
+  "description": "Learning Objectives",
+  "source": "@site/ch07-perception-systems/index.md",
+  "sourceDirName": "ch07-perception-systems",
+  "slug": "/ch07-perception-systems/",
+  "permalink": "/ch07-perception-systems/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/ch07-perception-systems/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 6: URDF and XACRO for Robot Modeling",
+    "permalink": "/ch06-urdf-xacro/"
+  },
+  "next": {
+    "title": "Chapter 8: Mobile Robot Navigation and Path Planning",
+    "permalink": "/ch08-navigation/"
+  }
+}

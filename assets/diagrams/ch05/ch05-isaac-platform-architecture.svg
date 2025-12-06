@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .isaac { fill: #4e89e5; stroke: #2c5aa0; stroke-width: 2; rx: 10; }
+    .simulation { fill: #7eb875; stroke: #4a7c47; stroke-width: 2; }
+    .ai { fill: #e5b060; stroke: #a0702c; stroke-width: 2; }
+    .ros { fill: #c97bae; stroke: #8a4a73; stroke-width: 2; }
+    .hardware { fill: #6aa7a7; stroke: #4a7a7a; stroke-width: 2; }
+    .text { fill: white; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; }
+    .label { fill: #333; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">NVIDIA Isaac Platform Architecture</text>
+
+  <!-- Isaac Platform Core -->
+  <rect x="100" y="80" width="600" height="450" fill="#f0f8ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">NVIDIA Isaac Platform</text>
+
+  <!-- Isaac Sim (Simulation) -->
+  <rect x="130" y="140" width="180" height="100" class="simulation" />
+  <text x="220" y="170" class="text" font-size="12">Isaac Sim</text>
+  <text x="220" y="190" class="text" font-size="10">(Simulation & Training)</text>
+
+  <!-- Isaac Lab (Learning) -->
+  <rect x="330" y="140" width="180" height="100" class="simulation" />
+  <text x="420" y="170" class="text" font-size="12">Isaac Lab</text>
+  <text x="420" y="190" class="text" font-size="10">(Robot Learning)</text>
+
+  <!-- Isaac Apps (Applications) -->
+  <rect x="530" y="140" width="140" height="100" class="isaac" />
+  <text x="600" y="170" class="text" font-size="12">Isaac Apps</text>
+  <text x="600" y="190" class="text" font-size="10">(Reference Apps)</text>
+
+  <!-- Isaac ROS (ROS Integration) -->
+  <rect x="130" y="260" width="540" height="100" class="ros" />
+  <text x="400" y="290" class="text" font-size="12">Isaac ROS (GPU-Accelerated ROS 2 Packages)</text>
+
+  <!-- Isaac ROS Packages -->
+  <rect x="150" y="275" width="100" height="30" fill="#a0c0e0" stroke="#6080b0" stroke-width="1" rx="5"/>
+  <text x="200" y="290" font-size="10" text-anchor="middle" fill="#333">Image Pipeline</text>
+
+  <rect x="260" y="275" width="100" height="30" fill="#a0c0e0" stroke="#6080b0" stroke-width="1" rx="5"/>
+  <text x="310" y="290" font-size="10" text-anchor="middle" fill="#333">AprilTag</text>
+
+  <rect x="370" y="275" width="100" height="30" fill="#a0c0e0" stroke="#6080b0" stroke-width="1" rx="5"/>
+  <text x="420" y="290" font-size="10" text-anchor="middle" fill="#333">DNN Inference</text>
+
+  <rect x="480" y="275" width="100" height="30" fill="#a0c0e0" stroke="#6080b0" stroke-width="1" rx="5"/>
+  <text x="530" y="290" font-size="10" text-anchor="middle" fill="#333">Visual SLAM</text>
+
+  <!-- AI & Deep Learning -->
+  <rect x="130" y="380" width="250" height="80" class="ai" />
+  <text x="255" y="410" class="text" font-size="12">AI & Deep Learning</text>
+  <text x="255" y="430" class="text" font-size="10">(TensorRT, cuDNN, etc.)</text>
+
+  <!-- Hardware Platforms -->
+  <rect x="420" y="380" width="250" height="80" class="hardware" />
+  <text x="545" y="410" class="text" font-size="12">Hardware Platforms</text>
+  <text x="545" y="430" class="text" font-size="10">(Jetson, Xavier, GPU)</text>
+
+  <!-- ROS 2 Ecosystem -->
+  <ellipse cx="150" cy="520" rx="80" ry="30" class="ros" />
+  <text x="150" y="520" class="text" font-size="12">ROS 2</text>
+
+  <!-- Physical Robot -->
+  <ellipse cx="350" cy="520" rx="80" ry="30" class="hardware" />
+  <text x="350" y="520" class="text" font-size="12">Physical Robot</text>
+
+  <!-- Simulation Environment -->
+  <ellipse cx="550" cy="520" rx="80" ry="30" class="simulation" />
+  <text x="550" y="520" class="text" font-size="12">Simulation</text>
+
+  <!-- Communication Arrows -->
+  <!-- Isaac Sim to Isaac Lab -->
+  <line x1="310" y1="190" x2="330" y2="190" class="arrow" />
+
+  <!-- Isaac Sim to Isaac ROS -->
+  <line x1="220" y1="240" x2="220" y2="260" class="arrow" />
+
+  <!-- Isaac Lab to Isaac ROS -->
+  <line x1="420" y1="240" x2="420" y2="260" class="arrow" />
+
+  <!-- Isaac Apps to Isaac ROS -->
+  <line x1="600" y1="240" x2="600" y2="260" class="arrow" />
+
+  <!-- Isaac ROS to AI/Deep Learning -->
+  <line x1="400" y1="360" x2="255" y2="380" class="arrow" />
+
+  <!-- Isaac ROS to Hardware -->
+  <line x1="400" y1="360" x2="545" y2="380" class="arrow" />
+
+  <!-- AI/Deep Learning to Hardware -->
+  <line x1="330" y1="420" x2="420" y2="420" class="arrow" />
+
+  <!-- ROS 2 to Physical Robot -->
+  <line x1="230" y1="520" x2="270" y2="520" class="arrow" />
+
+  <!-- Physical Robot to Simulation -->
+  <line x1="430" y1="520" x2="470" y2="520" class="arrow" />
+
+  <!-- Isaac ROS to ROS 2 -->
+  <line x1="400" y1="340" x2="230" y2="480" class="arrow" stroke-dasharray="5,5" />
+
+  <!-- Isaac Sim to Simulation -->
+  <line x1="400" y1="340" x2="550" y2="480" class="arrow" stroke-dasharray="5,5" />
+
+  <!-- Legend -->
+  <rect x="50" y="520" width="180" height="120" fill="none" stroke="#333" stroke-width="1" />
+  <text x="140" y="540" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Legend</text>
+  <rect x="60" y="560" width="20" height="15" class="isaac" />
+  <text x="90" y="570" font-size="12" text-anchor="start" fill="#333">Isaac Core</text>
+
+  <rect x="60" y="585" width="20" height="15" class="simulation" />
+  <text x="90" y="595" font-size="12" text-anchor="start" fill="#333">Simulation</text>
+
+  <rect x="60" y="610" width="20" height="15" class="ai" />
+  <text x="90" y="620" font-size="12" text-anchor="start" fill="#333">AI/Deep Learning</text>
+
+  <rect x="60" y="635" width="20" height="15" class="ros" />
+  <text x="90" y="645" font-size="12" text-anchor="start" fill="#333">ROS Integration</text>
+
+  <rect x="60" y="660" width="20" height="15" class="hardware" />
+  <text x="90" y="670" font-size="12" text-anchor="start" fill="#333">Hardware</text>
+
+  <!-- Workflow -->
+  <text x="650" y="550" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Workflow</text>
+  <text x="650" y="570" font-size="12" text-anchor="middle" fill="#333">1. Train in Sim</text>
+  <text x="650" y="590" font-size="12" text-anchor="middle" fill="#333">2. Optimize with AI</text>
+  <text x="650" y="610" font-size="12" text-anchor="middle" fill="#333">3. Deploy to Hardware</text>
+  <text x="650" y="630" font-size="12" text-anchor="middle" fill="#333">4. Integrate with ROS 2</text>
+</svg>

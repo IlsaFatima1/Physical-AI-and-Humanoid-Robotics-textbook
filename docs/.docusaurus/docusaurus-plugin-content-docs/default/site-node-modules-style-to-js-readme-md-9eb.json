@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/style-to-js/README",
+  "title": "style-to-js",
+  "description": "NPM",
+  "source": "@site/node_modules/style-to-js/README.md",
+  "sourceDirName": "node_modules/style-to-js",
+  "slug": "/node_modules/style-to-js/",
+  "permalink": "/node_modules/style-to-js/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/style-to-js/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

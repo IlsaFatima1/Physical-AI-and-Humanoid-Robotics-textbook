@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/icss-utils/LICENSE",
+  "title": "LICENSE",
+  "description": "ISC License (ISC)",
+  "source": "@site/node_modules/icss-utils/LICENSE.md",
+  "sourceDirName": "node_modules/icss-utils",
+  "slug": "/node_modules/icss-utils/LICENSE",
+  "permalink": "/node_modules/icss-utils/LICENSE",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/icss-utils/LICENSE.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/uuid/README",
+  "title": "README",
+  "description": "<!--",
+  "source": "@site/node_modules/uuid/README.md",
+  "sourceDirName": "node_modules/uuid",
+  "slug": "/node_modules/uuid/",
+  "permalink": "/node_modules/uuid/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/uuid/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

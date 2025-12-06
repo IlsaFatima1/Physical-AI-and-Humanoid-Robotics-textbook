@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/skin-tone/readme",
+  "title": "skin-tone [![Build Status](https://travis-ci.org/sindresorhus/skin-tone.svg?branch=master)](https://travis-ci.org/sindresorhus/skin-tone)",
+  "description": "Change the skin tone of an emoji 👌👌🏻👌🏼👌🏽👌🏾👌🏿",
+  "source": "@site/node_modules/skin-tone/readme.md",
+  "sourceDirName": "node_modules/skin-tone",
+  "slug": "/node_modules/skin-tone/",
+  "permalink": "/node_modules/skin-tone/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/skin-tone/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

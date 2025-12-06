@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/wbuf/README",
+  "title": "wbuf",
+  "description": "LICENSE",
+  "source": "@site/node_modules/wbuf/README.md",
+  "sourceDirName": "node_modules/wbuf",
+  "slug": "/node_modules/wbuf/",
+  "permalink": "/node_modules/wbuf/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/wbuf/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

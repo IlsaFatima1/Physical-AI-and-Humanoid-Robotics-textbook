@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@vercel/oidc/docs/README",
+  "title": "@vercel/oidc",
+  "description": "Table of contents",
+  "source": "@site/node_modules/@vercel/oidc/docs/README.md",
+  "sourceDirName": "node_modules/@vercel/oidc/docs",
+  "slug": "/node_modules/@vercel/oidc/docs/",
+  "permalink": "/node_modules/@vercel/oidc/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@vercel/oidc/docs/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

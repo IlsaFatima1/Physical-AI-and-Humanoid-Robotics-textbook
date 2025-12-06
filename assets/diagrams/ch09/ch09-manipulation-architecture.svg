@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .perception { fill: #4e89e5; stroke: #2c5aa0; stroke-width: 2; rx: 10; }
+    .planning { fill: #7eb875; stroke: #4a7c47; stroke-width: 2; }
+    .control { fill: #e5b060; stroke: #a0702c; stroke-width: 2; }
+    .kinematics { fill: #c97bae; stroke: #8a4a73; stroke-width: 2; }
+    .robot { fill: #6aa7a7; stroke: #4a7a7a; stroke-width: 2; }
+    .output { fill: #a060c0; stroke: #703090; stroke-width: 2; }
+    .text { fill: white; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; }
+    .label { fill: #333; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">Robotic Manipulation Architecture</text>
+
+  <!-- Perception Layer -->
+  <rect x="100" y="80" width="600" height="60" fill="#f0f8ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Perception Layer</text>
+
+  <!-- Perception Components -->
+  <rect x="130" y="110" width="100" height="30" class="perception" />
+  <text x="180" y="125" class="text" font-size="10">RGB-D Camera</text>
+
+  <rect x="250" y="110" width="100" height="30" class="perception" />
+  <text x="300" y="125" class="text" font-size="10">Force/Torque</text>
+
+  <rect x="370" y="110" width="100" height="30" class="perception" />
+  <text x="420" y="125" class="text" font-size="10">Tactile Sensors</text>
+
+  <rect x="490" y="110" width="100" height="30" class="perception" />
+  <text x="540" y="125" class="text" font-size="10">IMU</text>
+
+  <rect x="610" y="110" width="100" height="30" class="perception" />
+  <text x="660" y="125" class="text" font-size="10">Encoders</text>
+
+  <!-- Object Recognition and Localization -->
+  <rect x="100" y="160" width="600" height="40" fill="#f0f8ff" stroke="#ccc" stroke-width="1" />
+  <text x="200" y="185" font-size="12" text-anchor="middle" fill="#333">Object Recognition</text>
+  <text x="400" y="185" font-size="12" text-anchor="middle" fill="#333">Pose Estimation</text>
+  <text x="600" y="185" font-size="12" text-anchor="middle" fill="#333">Scene Understanding</text>
+
+  <!-- Grasp Planning Layer -->
+  <rect x="100" y="220" width="600" height="60" fill="#f0fff0" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="240" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Grasp Planning</text>
+
+  <!-- Grasp Planning Components -->
+  <rect x="180" y="250" width="120" height="30" class="planning" />
+  <text x="240" y="265" class="text" font-size="10">Geometry Analysis</text>
+
+  <rect x="340" y="250" width="120" height="30" class="planning" />
+  <text x="400" y="265" class="text" font-size="10">Force Closure</text>
+
+  <rect x="500" y="250" width="120" height="30" class="planning" />
+  <text x="560" y="265" class="text" font-size="10">Quality Evaluation</text>
+
+  <!-- Motion Planning Layer -->
+  <rect x="100" y="300" width="600" height="60" fill="#fff8f0" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="320" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Motion Planning</text>
+
+  <!-- Motion Planning Components -->
+  <rect x="180" y="330" width="100" height="30" class="planning" />
+  <text x="230" y="345" class="text" font-size="10">Trajectory</text>
+
+  <rect x="300" y="330" width="100" height="30" class="planning" />
+  <text x="350" y="345" class="text" font-size="10">Path Planning</text>
+
+  <rect x="420" y="330" width="100" height="30" class="planning" />
+  <text x="470" y="345" class="text" font-size="10">Collision Avoidance</text>
+
+  <rect x="540" y="330" width="100" height="30" class="planning" />
+  <text x="590" y="345" class="text" font-size="10">Optimization</text>
+
+  <!-- Kinematics Layer -->
+  <rect x="100" y="380" width="600" height="60" fill="#f8f0ff" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="400" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Kinematics</text>
+
+  <!-- Kinematics Components -->
+  <rect x="200" y="410" width="100" height="30" class="kinematics" />
+  <text x="250" y="425" class="text" font-size="10">Forward</text>
+
+  <rect x="320" y="410" width="100" height="30" class="kinematics" />
+  <text x="370" y="425" class="text" font-size="10">Inverse</text>
+
+  <rect x="440" y="410" width="100" height="30" class="kinematics" />
+  <text x="490" y="425" class="text" font-size="10">Jacobian</text>
+
+  <rect x="560" y="410" width="100" height="30" class="kinematics" />
+  <text x="610" y="425" class="text" font-size="10">Dynamics</text>
+
+  <!-- Control Layer -->
+  <rect x="100" y="460" width="600" height="60" fill="#fff0f8" stroke="#ccc" stroke-width="2" />
+  <text x="400" y="480" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Control Systems</text>
+
+  <!-- Control Components -->
+  <rect x="150" y="490" width="80" height="30" class="control" />
+  <text x="190" y="505" class="text" font-size="9">PID</text>
+
+  <rect x="240" y="490" width="80" height="30" class="control" />
+  <text x="280" y="505" class="text" font-size="9">Impedance</text>
+
+  <rect x="330" y="490" width="80" height="30" class="control" />
+  <text x="370" y="505" class="text" font-size="9">Force</text>
+
+  <rect x="420" y="490" width="80" height="30" class="control" />
+  <text x="460" y="505" class="text" font-size="9">Visual Servo</text>
+
+  <rect x="510" y="490" width="80" height="30" class="control" />
+  <text x="550" y="505" class="text" font-size="9">Admittance</text>
+
+  <rect x="600" y="490" width="80" height="30" class="control" />
+  <text x="640" y="505" class="text" font-size="9">OpSpace</text>
+
+  <!-- Robot Hardware -->
+  <rect x="300" y="540" width="200" height="40" class="robot" />
+  <text x="400" y="560" class="text" font-size="12">Robot Arm & Gripper</text>
+
+  <!-- Task Planning -->
+  <rect x="100" y="20" width="140" height="40" class="planning" />
+  <text x="170" y="40" class="text" font-size="12">Task Planning</text>
+
+  <!-- Output - Grasped Object -->
+  <rect x="560" y="20" width="140" height="40" class="output" />
+  <text x="630" y="40" class="text" font-size="12">Manipulated Object</text>
+
+  <!-- Arrows - Data Flow -->
+  <line x1="180" y1="140" x2="180" y2="160" class="arrow" />
+  <line x1="300" y1="140" x2="300" y2="160" class="arrow" />
+  <line x1="420" y1="140" x2="420" y2="160" class="arrow" />
+  <line x1="540" y1="140" x2="540" y2="160" class="arrow" />
+  <line x1="660" y1="140" x2="660" y2="160" class="arrow" />
+
+  <line x1="240" y1="280" x2="240" y2="220" class="arrow" />
+  <line x1="400" y1="280" x2="400" y2="220" class="arrow" />
+  <line x1="560" y1="280" x2="560" y2="220" class="arrow" />
+
+  <line x1="230" y1="360" x2="230" y2="300" class="arrow" />
+  <line x1="350" y1="360" x2="350" y2="300" class="arrow" />
+  <line x1="470" y1="360" x2="470" y2="300" class="arrow" />
+  <line x1="590" y1="360" x2="590" y2="300" class="arrow" />
+
+  <line x1="250" y1="440" x2="250" y2="380" class="arrow" />
+  <line x1="370" y1="440" x2="370" y2="380" class="arrow" />
+  <line x1="490" y1="440" x2="490" y2="380" class="arrow" />
+  <line x1="610" y1="440" x2="610" y2="380" class="arrow" />
+
+  <line x1="190" y1="520" x2="190" y2="460" class="arrow" />
+  <line x1="280" y1="520" x2="280" y2="460" class="arrow" />
+  <line x1="370" y1="520" x2="370" y2="460" class="arrow" />
+  <line x1="460" y1="520" x2="460" y2="460" class="arrow" />
+  <line x1="550" y1="520" x2="550" y2="460" class="arrow" />
+  <line x1="640" y1="520" x2="640" y2="460" class="arrow" />
+
+  <line x1="400" y1="580" x2="400" y2="600" class="arrow" />
+
+  <!-- Horizontal connections -->
+  <line x1="230" y1="125" x2="250" y2="125" class="arrow" />
+  <line x1="350" y1="125" x2="370" y2="125" class="arrow" />
+  <line x1="470" y1="125" x2="490" y2="125" class="arrow" />
+  <line x1="570" y1="125" x2="610" y2="125" class="arrow" />
+
+  <line x1="240" y1="185" x2="300" y2="185" class="arrow" />
+  <line x1="500" y1="185" x2="600" y2="185" class="arrow" />
+
+  <line x1="240" y1="265" x2="340" y2="265" class="arrow" />
+  <line x1="460" y1="265" x2="500" y2="265" class="arrow" />
+
+  <line x1="230" y1="345" x2="300" y2="345" class="arrow" />
+  <line x1="400" y1="345" x2="420" y2="345" class="arrow" />
+  <line x1="540" y1="345" x2="590" y2="345" class="arrow" />
+
+  <line x1="250" y1="425" x2="320" y2="425" class="arrow" />
+  <line x1="390" y1="425" x2="440" y2="425" class="arrow" />
+  <line x1="510" y1="425" x2="560" y2="425" class="arrow" />
+
+  <line x1="190" y1="505" x2="240" y2="505" class="arrow" />
+  <line x1="280" y1="505" x2="330" y2="505" class="arrow" />
+  <line x1="370" y1="505" x2="420" y2="505" class="arrow" />
+  <line x1="460" y1="505" x2="510" y2="505" class="arrow" />
+  <line x1="550" y1="505" x2="600" y2="505" class="arrow" />
+
+  <!-- Top-level connections -->
+  <line x1="170" y1="60" x2="170" y2="80" class="arrow" />
+  <line x1="170" y1="60" x2="400" y2="80" class="arrow" />
+
+  <line x1="630" y1="60" x2="630" y2="80" class="arrow" />
+  <line x1="630" y1="60" x2="400" y2="80" class="arrow" />
+
+  <!-- Manipulation Process -->
+  <text x="650" y="150" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Manipulation Process</text>
+  <text x="650" y="170" font-size="12" text-anchor="middle" fill="#333">Perceive → Plan → Control → Act</text>
+
+  <!-- Robot Arm Example -->
+  <text x="650" y="250" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">6-DOF Arm</text>
+  <text x="650" y="270" font-size="12" text-anchor="middle" fill="#333">with Parallel Gripper</text>
+
+  <!-- Control Modes -->
+  <text x="650" y="350" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Control Modes</text>
+  <text x="650" y="370" font-size="12" text-anchor="middle" fill="#333">Position, Force, Impedance,</text>
+  <text x="650" y="390" font-size="12" text-anchor="middle" fill="#333">Visual Servoing</text>
+
+  <!-- Safety -->
+  <text x="650" y="470" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Safety Features</text>
+  <text x="650" y="490" font-size="12" text-anchor="middle" fill="#333">Force Limits, Collision</text>
+  <text x="650" y="510" font-size="12" text-anchor="middle" fill="#333">Detection, Emergency Stop</text>
+
+  <!-- Legend -->
+  <rect x="50" y="520" width="180" height="120" fill="none" stroke="#333" stroke-width="1" />
+  <text x="140" y="540" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Legend</text>
+  <rect x="60" y="560" width="20" height="15" class="perception" />
+  <text x="90" y="570" font-size="12" text-anchor="start" fill="#333">Perception</text>
+
+  <rect x="60" y="585" width="20" height="15" class="planning" />
+  <text x="90" y="595" font-size="12" text-anchor="start" fill="#333">Planning</text>
+
+  <rect x="60" y="610" width="20" height="15" class="control" />
+  <text x="90" y="620" font-size="12" text-anchor="start" fill="#333">Control</text>
+
+  <rect x="60" y="635" width="20" height="15" class="kinematics" />
+  <text x="90" y="645" font-size="12" text-anchor="start" fill="#333">Kinematics</text>
+
+  <rect x="60" y="660" width="20" height="15" class="robot" />
+  <text x="90" y="670" font-size="12" text-anchor="start" fill="#333">Robot</text>
+
+  <rect x="60" y="685" width="20" height="15" class="output" />
+  <text x="90" y="695" font-size="12" text-anchor="start" fill="#333">Output</text>
+</svg>

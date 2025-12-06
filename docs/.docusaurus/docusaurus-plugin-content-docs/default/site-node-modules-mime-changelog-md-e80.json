@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/mime/CHANGELOG",
+  "title": "Changelog",
+  "description": "v1.6.0 (24/11/2017)",
+  "source": "@site/node_modules/mime/CHANGELOG.md",
+  "sourceDirName": "node_modules/mime",
+  "slug": "/node_modules/mime/CHANGELOG",
+  "permalink": "/node_modules/mime/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/mime/CHANGELOG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

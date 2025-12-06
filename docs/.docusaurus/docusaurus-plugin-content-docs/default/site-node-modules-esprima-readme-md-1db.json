@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/esprima/README",
+  "title": "README",
+  "description": "NPM version",
+  "source": "@site/node_modules/esprima/README.md",
+  "sourceDirName": "node_modules/esprima",
+  "slug": "/node_modules/esprima/",
+  "permalink": "/node_modules/esprima/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/esprima/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

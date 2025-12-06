@@ -1,0 +1,15 @@
+{
+  "id": "ch05-isaac-platform/exercises/chapter5-quiz",
+  "title": "Chapter 5 Quiz: NVIDIA Isaac Platform",
+  "description": "Multiple Choice Questions",
+  "source": "@site/ch05-isaac-platform/exercises/chapter5-quiz.md",
+  "sourceDirName": "ch05-isaac-platform/exercises",
+  "slug": "/ch05-isaac-platform/exercises/chapter5-quiz",
+  "permalink": "/ch05-isaac-platform/exercises/chapter5-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/ch05-isaac-platform/exercises/chapter5-quiz.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

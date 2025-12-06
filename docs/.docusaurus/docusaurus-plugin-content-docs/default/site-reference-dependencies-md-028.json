@@ -1,0 +1,24 @@
+{
+  "id": "reference/dependencies",
+  "title": "Cross-Chapter Dependencies",
+  "description": "This document tracks the prerequisite relationships between chapters in the Physical AI & Humanoid Robotics textbook.",
+  "source": "@site/reference/dependencies.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/dependencies",
+  "permalink": "/reference/dependencies",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/reference/dependencies.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "API Reference",
+    "permalink": "/reference/api-reference"
+  },
+  "next": {
+    "title": "Quiz Template",
+    "permalink": "/reference/quiz-template"
+  }
+}

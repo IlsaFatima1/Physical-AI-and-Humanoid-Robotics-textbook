@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/globby/readme",
+  "title": "globby",
+  "description": "User-friendly glob matching",
+  "source": "@site/node_modules/globby/readme.md",
+  "sourceDirName": "node_modules/globby",
+  "slug": "/node_modules/globby/",
+  "permalink": "/node_modules/globby/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/globby/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

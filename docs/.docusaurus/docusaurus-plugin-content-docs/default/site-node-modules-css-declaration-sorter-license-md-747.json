@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/css-declaration-sorter/license",
+  "title": "license",
+  "description": "ISC License",
+  "source": "@site/node_modules/css-declaration-sorter/license.md",
+  "sourceDirName": "node_modules/css-declaration-sorter",
+  "slug": "/node_modules/css-declaration-sorter/license",
+  "permalink": "/node_modules/css-declaration-sorter/license",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/css-declaration-sorter/license.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

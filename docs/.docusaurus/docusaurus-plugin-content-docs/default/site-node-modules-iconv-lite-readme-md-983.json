@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/iconv-lite/README",
+  "title": "README",
+  "description": "Pure JS character encoding conversion Build Status",
+  "source": "@site/node_modules/iconv-lite/README.md",
+  "sourceDirName": "node_modules/iconv-lite",
+  "slug": "/node_modules/iconv-lite/",
+  "permalink": "/node_modules/iconv-lite/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/iconv-lite/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

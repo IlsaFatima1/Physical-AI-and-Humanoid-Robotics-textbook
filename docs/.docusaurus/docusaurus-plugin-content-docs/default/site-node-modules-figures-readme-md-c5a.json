@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/figures/readme",
+  "title": "figures [![Build Status](https://travis-ci.org/sindresorhus/figures.svg?branch=master)](https://travis-ci.org/sindresorhus/figures)",
+  "description": "Unicode symbols with Windows CMD fallbacks",
+  "source": "@site/node_modules/figures/readme.md",
+  "sourceDirName": "node_modules/figures",
+  "slug": "/node_modules/figures/",
+  "permalink": "/node_modules/figures/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/figures/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

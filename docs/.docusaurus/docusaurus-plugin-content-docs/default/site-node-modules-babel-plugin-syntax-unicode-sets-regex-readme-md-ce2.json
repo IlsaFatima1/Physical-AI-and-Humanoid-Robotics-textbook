@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-syntax-unicode-sets-regex/README",
+  "title": "@babel/plugin-syntax-unicode-sets-regex",
+  "description": "Parse regular expressions' unicodeSets (v) flag.",
+  "source": "@site/node_modules/@babel/plugin-syntax-unicode-sets-regex/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-syntax-unicode-sets-regex",
+  "slug": "/node_modules/@babel/plugin-syntax-unicode-sets-regex/",
+  "permalink": "/node_modules/@babel/plugin-syntax-unicode-sets-regex/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@babel/plugin-syntax-unicode-sets-regex/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

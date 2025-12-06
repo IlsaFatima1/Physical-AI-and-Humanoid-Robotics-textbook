@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/define-properties/CHANGELOG",
+  "title": "Changelog",
+  "description": "All notable changes to this project will be documented in this file.",
+  "source": "@site/node_modules/define-properties/CHANGELOG.md",
+  "sourceDirName": "node_modules/define-properties",
+  "slug": "/node_modules/define-properties/CHANGELOG",
+  "permalink": "/node_modules/define-properties/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/define-properties/CHANGELOG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

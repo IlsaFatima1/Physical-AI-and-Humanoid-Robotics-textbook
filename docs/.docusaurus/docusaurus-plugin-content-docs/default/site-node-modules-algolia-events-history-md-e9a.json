@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@algolia/events/History",
+  "title": "4.0.1 (2021-11-24)",
+  "description": "- undo fake default export",
+  "source": "@site/node_modules/@algolia/events/History.md",
+  "sourceDirName": "node_modules/@algolia/events",
+  "slug": "/node_modules/@algolia/events/History",
+  "permalink": "/node_modules/@algolia/events/History",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/@algolia/events/History.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

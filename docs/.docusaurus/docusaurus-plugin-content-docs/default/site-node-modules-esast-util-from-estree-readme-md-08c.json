@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/esast-util-from-estree/readme",
+  "title": "esast-util-from-estree",
+  "description": "Build",
+  "source": "@site/node_modules/esast-util-from-estree/readme.md",
+  "sourceDirName": "node_modules/esast-util-from-estree",
+  "slug": "/node_modules/esast-util-from-estree/",
+  "permalink": "/node_modules/esast-util-from-estree/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/esast-util-from-estree/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

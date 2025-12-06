@@ -1,0 +1,368 @@
+openapi: 3.0.0
+info:
+  title: Physical AI & Humanoid Robotics Textbook API
+  description: API for interactive textbook features, code validation, and student progress tracking
+  version: 1.0.0
+  contact:
+    name: Textbook Development Team
+    email: textbook@physical-ai-robotics.org
+
+servers:
+  - url: https://api.textbook.physical-ai-robotics.org
+    description: Production server
+  - url: https://staging-api.textbook.physical-ai-robotics.org
+    description: Staging server
+
+paths:
+  /chapters:
+    get:
+      summary: List all textbook chapters
+      description: Retrieve a list of all chapters with metadata
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  chapters:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Chapter'
+
+  /chapters/{chapterNumber}:
+    get:
+      summary: Get chapter content
+      description: Retrieve the content of a specific chapter
+      parameters:
+        - name: chapterNumber
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 15
+          description: Chapter number (1-15)
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chapter'
+        '404':
+          description: Chapter not found
+
+  /chapters/{chapterNumber}/code-examples:
+    get:
+      summary: Get code examples for a chapter
+      description: Retrieve all code examples for a specific chapter
+      parameters:
+        - name: chapterNumber
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 15
+          description: Chapter number (1-15)
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  examples:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/CodeExample'
+
+  /chapters/{chapterNumber}/quiz:
+    get:
+      summary: Get quiz for a chapter
+      description: Retrieve the quiz questions for a specific chapter
+      parameters:
+        - name: chapterNumber
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 15
+          description: Chapter number (1-15)
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quiz'
+
+  /validate-code:
+    post:
+      summary: Validate code example
+      description: Submit code for validation against ROS 2, Gazebo, or Isaac environments
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+                  description: The code to validate
+                framework:
+                  type: string
+                  enum: [ros2, gazebo, isaac]
+                  description: The target framework for validation
+                version:
+                  type: string
+                  description: Framework version (e.g., "humble", "garden")
+      responses:
+        '200':
+          description: Validation result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  valid:
+                    type: boolean
+                  errors:
+                    type: array
+                    items:
+                      type: string
+                  suggestions:
+                    type: array
+                    items:
+                      type: string
+
+  /glossary:
+    get:
+      summary: Get glossary terms
+      description: Retrieve all glossary terms from the textbook
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  terms:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/GlossaryTerm'
+
+  /search:
+    get:
+      summary: Search textbook content
+      description: Search across all chapters, glossary, and appendices
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Search query
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 10
+          description: Maximum number of results
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/SearchResult'
+
+components:
+  schemas:
+    Chapter:
+      type: object
+      required:
+        - number
+        - title
+        - content
+        - prerequisites
+        - learning_objectives
+      properties:
+        number:
+          type: integer
+          minimum: 1
+          maximum: 15
+        title:
+          type: string
+        content:
+          type: string
+          description: Markdown content of the chapter
+        prerequisites:
+          type: array
+          items:
+            type: integer
+            description: Chapter numbers that are prerequisites
+        learning_objectives:
+          type: array
+          items:
+            type: string
+        components:
+          type: object
+          properties:
+            introduction:
+              type: string
+            technical_explanation:
+              type: string
+            diagrams:
+              type: array
+              items:
+                $ref: '#/components/schemas/Diagram'
+            examples:
+              type: array
+              items:
+                $ref: '#/components/schemas/CodeExample'
+            summary:
+              type: string
+            quiz:
+              type: string
+              description: Reference to quiz ID
+
+    CodeExample:
+      type: object
+      required:
+        - id
+        - technology
+        - code
+        - description
+      properties:
+        id:
+          type: string
+        technology:
+          type: string
+          enum: [ros2, gazebo, isaac, python, c++]
+        code:
+          type: string
+        description:
+          type: string
+        framework_version:
+          type: string
+        expected_output:
+          type: string
+        dependencies:
+          type: array
+          items:
+            type: string
+
+    Diagram:
+      type: object
+      required:
+        - id
+        - title
+        - file_path
+        - caption
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        file_path:
+          type: string
+        caption:
+          type: string
+        alt_text:
+          type: string
+
+    Quiz:
+      type: object
+      required:
+        - id
+        - chapter_number
+        - questions
+      properties:
+        id:
+          type: string
+        chapter_number:
+          type: integer
+        questions:
+          type: array
+          items:
+            $ref: '#/components/schemas/Question'
+        passing_score:
+          type: integer
+          minimum: 70
+          maximum: 90
+
+    Question:
+      type: object
+      required:
+        - id
+        - type
+        - content
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+          enum: [multiple_choice, practical_application, code_analysis, conceptual]
+        content:
+          type: string
+        options:
+          type: array
+          items:
+            type: string
+        correct_answer:
+          type: string
+        explanation:
+          type: string
+
+    GlossaryTerm:
+      type: object
+      required:
+        - term
+        - definition
+      properties:
+        term:
+          type: string
+        definition:
+          type: string
+        category:
+          type: string
+          enum: [ros2, gazebo, isaac, humanoid, vla, general_robotics]
+        related_terms:
+          type: array
+          items:
+            type: string
+        first_appears_in:
+          type: integer
+          minimum: 1
+          maximum: 15
+
+    SearchResult:
+      type: object
+      required:
+        - title
+        - content_preview
+        - source
+      properties:
+        title:
+          type: string
+        content_preview:
+          type: string
+        source:
+          type: string
+          description: Source location (chapter, glossary, appendix)
+        relevance:
+          type: number
+          minimum: 0
+          maximum: 1

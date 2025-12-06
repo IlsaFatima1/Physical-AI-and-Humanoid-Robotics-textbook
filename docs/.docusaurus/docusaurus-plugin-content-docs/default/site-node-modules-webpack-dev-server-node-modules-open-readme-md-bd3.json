@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/webpack-dev-server/node_modules/open/readme",
+  "title": "open",
+  "description": "Open stuff like URLs, files, executables. Cross-platform.",
+  "source": "@site/node_modules/webpack-dev-server/node_modules/open/readme.md",
+  "sourceDirName": "node_modules/webpack-dev-server/node_modules/open",
+  "slug": "/node_modules/webpack-dev-server/node_modules/open/",
+  "permalink": "/node_modules/webpack-dev-server/node_modules/open/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/webpack-dev-server/node_modules/open/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

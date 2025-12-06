@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/estree-util-is-identifier-name/readme",
+  "title": "estree-util-is-identifier-name",
+  "description": "Build",
+  "source": "@site/node_modules/estree-util-is-identifier-name/readme.md",
+  "sourceDirName": "node_modules/estree-util-is-identifier-name",
+  "slug": "/node_modules/estree-util-is-identifier-name/",
+  "permalink": "/node_modules/estree-util-is-identifier-name/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/estree-util-is-identifier-name/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

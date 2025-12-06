@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/ansi-align/CHANGELOG",
+  "title": "Changelog",
+  "description": "All notable changes to this project will be documented in this file. See standard-version for commit guidelines.",
+  "source": "@site/node_modules/ansi-align/CHANGELOG.md",
+  "sourceDirName": "node_modules/ansi-align",
+  "slug": "/node_modules/ansi-align/CHANGELOG",
+  "permalink": "/node_modules/ansi-align/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/ansi-align/CHANGELOG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

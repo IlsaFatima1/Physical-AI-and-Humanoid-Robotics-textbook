@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/requires-port/README",
+  "title": "requires-port",
+  "description": "Made by unshiftVersion npmBuild StatusDependenciesCoverage StatusIRC channel",
+  "source": "@site/node_modules/requires-port/README.md",
+  "sourceDirName": "node_modules/requires-port",
+  "slug": "/node_modules/requires-port/",
+  "permalink": "/node_modules/requires-port/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/requires-port/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

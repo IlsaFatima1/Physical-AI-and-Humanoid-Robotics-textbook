@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/minimatch/README",
+  "title": "minimatch",
+  "description": "A minimal matching utility.",
+  "source": "@site/node_modules/minimatch/README.md",
+  "sourceDirName": "node_modules/minimatch",
+  "slug": "/node_modules/minimatch/",
+  "permalink": "/node_modules/minimatch/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/minimatch/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

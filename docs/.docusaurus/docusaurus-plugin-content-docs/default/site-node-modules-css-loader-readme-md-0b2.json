@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/css-loader/README",
+  "title": "README",
+  "description": "<img width=\"180\" height=\"180\" vspace=\"20\"",
+  "source": "@site/node_modules/css-loader/README.md",
+  "sourceDirName": "node_modules/css-loader",
+  "slug": "/node_modules/css-loader/",
+  "permalink": "/node_modules/css-loader/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/node_modules/css-loader/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

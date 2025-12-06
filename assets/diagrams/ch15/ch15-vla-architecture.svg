@@ -1,0 +1,164 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <title>Vision-Language-Action Architecture for Humanoid Robot</title>
+  <desc>Diagram showing the VLA architecture for autonomous humanoid robot</desc>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Humanoid Robot -->
+  <g transform="translate(500, 150)">
+    <!-- Head with camera -->
+    <circle cx="0" cy="0" r="35" fill="#e9ecef" stroke="#495057" stroke-width="3"/>
+    <circle cx="-10" cy="-5" r="8" fill="#6f42c1" stroke="#5a32a3" stroke-width="2"/> <!-- Camera -->
+    <circle cx="10" cy="-5" r="8" fill="#6f42c1" stroke="#5a32a3" stroke-width="2"/> <!-- Camera -->
+    <!-- Torso -->
+    <rect x="-30" y="35" width="60" height="100" fill="#e9ecef" stroke="#495057" stroke-width="3"/>
+    <!-- Left Arm -->
+    <line x1="-30" y1="50" x2="-80" y2="80" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+    <!-- Right Arm -->
+    <line x1="30" y1="50" x2="80" y2="80" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+    <!-- Left Leg -->
+    <line x1="-20" y1="135" x2="-20" y2="220" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+    <!-- Right Leg -->
+    <line x1="20" y1="135" x2="20" y2="220" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+    <!-- Left Foot -->
+    <rect x="-35" y="220" width="30" height="12" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <!-- Right Foot -->
+    <rect x="5" y="220" width="30" height="12" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  </g>
+
+  <!-- VLA System Components -->
+  <!-- Vision System -->
+  <g transform="translate(100, 300)">
+    <rect x="0" y="0" width="160" height="100" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" rx="10"/>
+    <text x="80" y="20" text-anchor="middle" font-weight="bold" font-size="14">Vision System</text>
+    <text x="10" y="45" font-size="12">• Camera Processing</text>
+    <text x="10" y="65" font-size="12">• Object Detection</text>
+    <text x="10" y="85" font-size="12">• Depth Estimation</text>
+  </g>
+
+  <!-- Language Processor -->
+  <g transform="translate(300, 300)">
+    <rect x="0" y="0" width="160" height="100" fill="#f8d7da" stroke="#721c24" stroke-width="2" rx="10"/>
+    <text x="80" y="20" text-anchor="middle" font-weight="bold" font-size="14">Language Processor</text>
+    <text x="10" y="45" font-size="12">• NLP Processing</text>
+    <text x="10" y="65" font-size="12">• Command Parsing</text>
+    <text x="10" y="85" font-size="12">• Intent Recognition</text>
+  </g>
+
+  <!-- Task Planner -->
+  <g transform="translate(500, 300)">
+    <rect x="0" y="0" width="160" height="100" fill="#fff3cd" stroke="#856404" stroke-width="2" rx="10"/>
+    <text x="80" y="20" text-anchor="middle" font-weight="bold" font-size="14">Task Planner</text>
+    <text x="10" y="45" font-size="12">• Action Sequencing</text>
+    <text x="10" y="65" font-size="12">• Path Planning</text>
+    <text x="10" y="85" font-size="12">• Constraint Handling</text>
+  </g>
+
+  <!-- Motion Controller -->
+  <g transform="translate(700, 300)">
+    <rect x="0" y="0" width="160" height="100" fill="#d4edda" stroke="#155724" stroke-width="2" rx="10"/>
+    <text x="80" y="20" text-anchor="middle" font-weight="bold" font-size="14">Motion Controller</text>
+    <text x="10" y="45" font-size="12">• Joint Control</text>
+    <text x="10" y="65" font-size="12">• Balance Control</text>
+    <text x="10" y="85" font-size="12">• Trajectory Execution</text>
+  </g>
+
+  <!-- Learning System -->
+  <g transform="translate(400, 450)">
+    <rect x="0" y="0" width="200" height="80" fill="#e2e3e5" stroke="#383d41" stroke-width="2" rx="10"/>
+    <text x="100" y="20" text-anchor="middle" font-weight="bold" font-size="14">Learning System</text>
+    <text x="10" y="45" font-size="12">• Experience Buffer</text>
+    <text x="10" y="65" font-size="12">• Performance Metrics</text>
+  </g>
+
+  <!-- Environment -->
+  <g transform="translate(100, 550)">
+    <rect x="0" y="0" width="800" height="100" fill="#cce5ff" stroke="#004085" stroke-width="2" rx="10"/>
+    <text x="400" y="20" text-anchor="middle" font-weight="bold" font-size="14">Environment</text>
+    <text x="10" y="45" font-size="12">• Objects to Manipulate</text>
+    <text x="10" y="65" font-size="12">• Navigation Spaces</text>
+    <text x="10" y="85" font-size="12">• Human Interaction Areas</text>
+  </g>
+
+  <!-- Arrows showing data flow -->
+  <g stroke="#6c757d" stroke-width="2" marker-end="url(#arrowhead)">
+    <!-- Vision to Processing -->
+    <line x1="180" y1="350" x2="300" y2="250"/>
+
+    <!-- Language to Task Planner -->
+    <line x1="460" y1="350" x2="500" y2="350"/>
+
+    <!-- Task Planner to Motion Controller -->
+    <line x1="660" y1="350" x2="700" y2="350"/>
+
+    <!-- Vision to Robot -->
+    <line x1="180" y1="350" x2="450" y2="200"/>
+
+    <!-- Language to Robot -->
+    <line x1="380" y1="350" x2="450" y2="200"/>
+
+    <!-- Task Planner to Robot -->
+    <line x1="580" y1="350" x2="450" y2="200"/>
+
+    <!-- Motion Controller to Robot -->
+    <line x1="780" y1="350" x2="550" y2="200"/>
+
+    <!-- Robot to Environment -->
+    <line x1="500" y1="370" x2="500" y2="550"/>
+
+    <!-- Environment to Vision -->
+    <line x1="500" y1="650" x2="180" y2="400"/>
+
+    <!-- All components to Learning -->
+    <line x1="260" y1="350" x2="400" y2="480"/>
+    <line x1="460" y1="350" x2="450" y2="480"/>
+    <line x1="660" y1="350" x2="500" y2="480"/>
+    <line x1="780" y1="350" x2="550" y2="480"/>
+
+    <!-- Learning back to components -->
+    <line x1="450" y1="500" x2="180" y2="380"/>
+    <line x1="450" y1="500" x2="380" y2="380"/>
+    <line x1="500" y1="500" x2="580" y2="380"/>
+    <line x1="550" y1="500" x2="780" y2="380"/>
+  </g>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6c757d"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#212529">
+    Vision-Language-Action (VLA) Architecture for Autonomous Humanoid Robot
+  </text>
+
+  <!-- Legend -->
+  <g font-size="12" fill="#212529">
+    <rect x="50" y="50" width="15" height="15" fill="#d1ecf1" stroke="#0c5460"/>
+    <text x="70" y="62">Vision System</text>
+
+    <rect x="50" y="75" width="15" height="15" fill="#f8d7da" stroke="#721c24"/>
+    <text x="70" y="87">Language Processor</text>
+
+    <rect x="50" y="100" width="15" height="15" fill="#fff3cd" stroke="#856404"/>
+    <text x="70" y="112">Task Planner</text>
+
+    <rect x="50" y="125" width="15" height="15" fill="#d4edda" stroke="#155724"/>
+    <text x="70" y="137">Motion Controller</text>
+
+    <rect x="50" y="150" width="15" height="15" fill="#e2e3e5" stroke="#383d41"/>
+    <text x="70" y="162">Learning System</text>
+
+    <rect x="50" y="175" width="15" height="15" fill="#cce5ff" stroke="#004085"/>
+    <text x="70" y="187">Environment</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="500" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#495057">
+    Humanoid Robot Platform
+  </text>
+</svg>
