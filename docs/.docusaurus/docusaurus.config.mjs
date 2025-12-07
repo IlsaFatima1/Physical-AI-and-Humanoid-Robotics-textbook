@@ -83,16 +83,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
+              "label": "Stack Overflows",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.com/channels/@me"
             },
             {
               "label": "Linkedin",
-              "href": "https://www.linkedin.com/in/ilsa-fatima-107381380?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              "href": "https://www.linkedin.com/in/aamash-khalid-13702a384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             }
           ]
         },
@@ -101,7 +101,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/IlsaFatima1"
+              "href": "hhttps://github.com/M-Aamash"
             }
           ]
         }
