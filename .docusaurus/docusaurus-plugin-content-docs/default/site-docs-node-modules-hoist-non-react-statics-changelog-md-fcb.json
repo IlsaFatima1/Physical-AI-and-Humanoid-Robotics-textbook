@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/hoist-non-react-statics/CHANGELOG",
+  "title": "3.3.2 (January 22, 2020)",
+  "description": "- Fix React.memo for v16.12+ (#93)",
+  "source": "@site/docs/node_modules/hoist-non-react-statics/CHANGELOG.md",
+  "sourceDirName": "node_modules/hoist-non-react-statics",
+  "slug": "/node_modules/hoist-non-react-statics/CHANGELOG",
+  "permalink": "/physical-ai-textbook/node_modules/hoist-non-react-statics/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/hoist-non-react-statics/CHANGELOG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

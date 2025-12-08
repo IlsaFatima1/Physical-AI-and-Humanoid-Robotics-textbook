@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/estree/README",
+  "title": "Installation",
+  "description": "npm install --save @types/estree",
+  "source": "@site/docs/node_modules/@types/estree/README.md",
+  "sourceDirName": "node_modules/@types/estree",
+  "slug": "/node_modules/@types/estree/",
+  "permalink": "/physical-ai-textbook/node_modules/@types/estree/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@types/estree/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

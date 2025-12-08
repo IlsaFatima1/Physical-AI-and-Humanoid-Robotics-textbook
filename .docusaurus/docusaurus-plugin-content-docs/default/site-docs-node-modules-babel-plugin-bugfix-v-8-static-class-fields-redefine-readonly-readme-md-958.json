@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/README",
+  "title": "@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly",
+  "description": "Transform static class fields assignments that are affected by https://crbug.com/v8/12421",
+  "source": "@site/docs/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly",
+  "slug": "/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "appendices/appendix-c-troubleshooting",
+  "title": "Appendix C: Troubleshooting Guide",
+  "description": "This appendix provides solutions to common problems encountered when working with Physical AI and Humanoid Robotics systems, particularly those using ROS 2, Gazebo, and NVIDIA Isaac.",
+  "source": "@site/docs/appendices/appendix-c-troubleshooting.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-c-troubleshooting",
+  "permalink": "/physical-ai-textbook/appendices/appendix-c-troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/appendices/appendix-c-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Appendix B: Setup Guide",
+    "permalink": "/physical-ai-textbook/appendices/appendix-b-setup"
+  },
+  "next": {
+    "title": "Appendix E: Code Templates",
+    "permalink": "/physical-ai-textbook/appendices/appendix-e-code-templates"
+  }
+}

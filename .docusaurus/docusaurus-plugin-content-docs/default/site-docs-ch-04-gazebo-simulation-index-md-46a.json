@@ -1,0 +1,24 @@
+{
+  "id": "ch04-gazebo-simulation/index",
+  "title": "Chapter 4: Gazebo Simulation Environment",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch04-gazebo-simulation/index.md",
+  "sourceDirName": "ch04-gazebo-simulation",
+  "slug": "/ch04-gazebo-simulation/",
+  "permalink": "/physical-ai-textbook/ch04-gazebo-simulation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch04-gazebo-simulation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 3: ROS 2 Architecture and Communication",
+    "permalink": "/physical-ai-textbook/ch03-ros2-architecture/"
+  },
+  "next": {
+    "title": "Chapter 5: NVIDIA Isaac Platform",
+    "permalink": "/physical-ai-textbook/ch05-isaac-platform/"
+  }
+}

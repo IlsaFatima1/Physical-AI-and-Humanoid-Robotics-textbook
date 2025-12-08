@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/srcset/readme",
+  "title": "srcset",
+  "description": "Parse and stringify the HTML `` srcset attribute.",
+  "source": "@site/docs/node_modules/srcset/readme.md",
+  "sourceDirName": "node_modules/srcset",
+  "slug": "/node_modules/srcset/",
+  "permalink": "/physical-ai-textbook/node_modules/srcset/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/srcset/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@nodelib/fs.walk/README",
+  "title": "@nodelib/fs.walk",
+  "description": "A library for efficiently walking a directory recursively.",
+  "source": "@site/docs/node_modules/@nodelib/fs.walk/README.md",
+  "sourceDirName": "node_modules/@nodelib/fs.walk",
+  "slug": "/node_modules/@nodelib/fs.walk/",
+  "permalink": "/physical-ai-textbook/node_modules/@nodelib/fs.walk/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@nodelib/fs.walk/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

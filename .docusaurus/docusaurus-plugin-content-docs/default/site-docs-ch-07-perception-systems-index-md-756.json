@@ -1,0 +1,24 @@
+{
+  "id": "ch07-perception-systems/index",
+  "title": "Chapter 7: Perception Systems and Computer Vision",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch07-perception-systems/index.md",
+  "sourceDirName": "ch07-perception-systems",
+  "slug": "/ch07-perception-systems/",
+  "permalink": "/physical-ai-textbook/ch07-perception-systems/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch07-perception-systems/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 6: URDF and XACRO for Robot Modeling",
+    "permalink": "/physical-ai-textbook/ch06-urdf-xacro/"
+  },
+  "next": {
+    "title": "Chapter 8: Mobile Robot Navigation and Path Planning",
+    "permalink": "/physical-ai-textbook/ch08-navigation/"
+  }
+}

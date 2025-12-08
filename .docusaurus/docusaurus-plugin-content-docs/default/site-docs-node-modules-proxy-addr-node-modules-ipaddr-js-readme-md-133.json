@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/proxy-addr/node_modules/ipaddr.js/README",
+  "title": "ipaddr.js — an IPv6 and IPv4 address manipulation library [![Build Status](https://travis-ci.org/whitequark/ipaddr.js.svg)](https://travis-ci.org/whitequark/ipaddr.js)",
+  "description": "ipaddr.js is a small (1.9K minified and gzipped) library for manipulating",
+  "source": "@site/docs/node_modules/proxy-addr/node_modules/ipaddr.js/README.md",
+  "sourceDirName": "node_modules/proxy-addr/node_modules/ipaddr.js",
+  "slug": "/node_modules/proxy-addr/node_modules/ipaddr.js/",
+  "permalink": "/physical-ai-textbook/node_modules/proxy-addr/node_modules/ipaddr.js/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/proxy-addr/node_modules/ipaddr.js/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

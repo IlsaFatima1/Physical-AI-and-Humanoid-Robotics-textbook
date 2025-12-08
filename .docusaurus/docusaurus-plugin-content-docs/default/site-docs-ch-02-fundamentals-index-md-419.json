@@ -1,0 +1,24 @@
+{
+  "id": "ch02-fundamentals/index",
+  "title": "Chapter 2: Fundamentals of Robotics and AI Integration",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch02-fundamentals/index.md",
+  "sourceDirName": "ch02-fundamentals",
+  "slug": "/ch02-fundamentals/",
+  "permalink": "/physical-ai-textbook/ch02-fundamentals/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch02-fundamentals/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to Physical AI and Humanoid Robotics",
+    "permalink": "/physical-ai-textbook/ch01-introduction/"
+  },
+  "next": {
+    "title": "Chapter 3: ROS 2 Architecture and Communication",
+    "permalink": "/physical-ai-textbook/ch03-ros2-architecture/"
+  }
+}

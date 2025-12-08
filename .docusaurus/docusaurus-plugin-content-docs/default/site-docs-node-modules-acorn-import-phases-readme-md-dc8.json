@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/acorn-import-phases/README",
+  "title": "Support for import defer and import souce in acorn",
+  "description": "Install",
+  "source": "@site/docs/node_modules/acorn-import-phases/README.md",
+  "sourceDirName": "node_modules/acorn-import-phases",
+  "slug": "/node_modules/acorn-import-phases/",
+  "permalink": "/physical-ai-textbook/node_modules/acorn-import-phases/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/acorn-import-phases/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

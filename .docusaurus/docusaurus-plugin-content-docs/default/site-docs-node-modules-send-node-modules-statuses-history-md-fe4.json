@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/send/node_modules/statuses/HISTORY",
+  "title": "2.0.1 / 2021-01-03",
+  "description": "* Fix returning values from Object.prototype",
+  "source": "@site/docs/node_modules/send/node_modules/statuses/HISTORY.md",
+  "sourceDirName": "node_modules/send/node_modules/statuses",
+  "slug": "/node_modules/send/node_modules/statuses/HISTORY",
+  "permalink": "/physical-ai-textbook/node_modules/send/node_modules/statuses/HISTORY",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/send/node_modules/statuses/HISTORY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

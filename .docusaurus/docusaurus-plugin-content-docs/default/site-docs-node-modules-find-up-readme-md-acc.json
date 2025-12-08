@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/find-up/readme",
+  "title": "find-up",
+  "description": "Find a file or directory by walking up parent directories",
+  "source": "@site/docs/node_modules/find-up/readme.md",
+  "sourceDirName": "node_modules/find-up",
+  "slug": "/node_modules/find-up/",
+  "permalink": "/physical-ai-textbook/node_modules/find-up/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/find-up/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

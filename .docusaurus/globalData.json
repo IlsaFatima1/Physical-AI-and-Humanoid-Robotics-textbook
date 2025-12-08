@@ -1,0 +1,202 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/physical-ai-textbook/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/physical-ai-textbook/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "appendices/appendix-a-installation",
+              "path": "/physical-ai-textbook/appendices/appendix-a-installation",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "appendices/appendix-b-setup",
+              "path": "/physical-ai-textbook/appendices/appendix-b-setup",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "appendices/appendix-c-troubleshooting",
+              "path": "/physical-ai-textbook/appendices/appendix-c-troubleshooting",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "appendices/appendix-e-code-templates",
+              "path": "/physical-ai-textbook/appendices/appendix-e-code-templates",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "appendices/appendix-g-resources",
+              "path": "/physical-ai-textbook/appendices/appendix-g-resources",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch01-introduction/exercises/chapter1-quiz",
+              "path": "/physical-ai-textbook/ch01-introduction/exercises/chapter1-quiz"
+            },
+            {
+              "id": "ch01-introduction/index",
+              "path": "/physical-ai-textbook/ch01-introduction/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch02-fundamentals/exercises/chapter2-quiz",
+              "path": "/physical-ai-textbook/ch02-fundamentals/exercises/chapter2-quiz"
+            },
+            {
+              "id": "ch02-fundamentals/index",
+              "path": "/physical-ai-textbook/ch02-fundamentals/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch03-ros2-architecture/exercises/chapter3-quiz",
+              "path": "/physical-ai-textbook/ch03-ros2-architecture/exercises/chapter3-quiz"
+            },
+            {
+              "id": "ch03-ros2-architecture/index",
+              "path": "/physical-ai-textbook/ch03-ros2-architecture/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch04-gazebo-simulation/exercises/chapter4-quiz",
+              "path": "/physical-ai-textbook/ch04-gazebo-simulation/exercises/chapter4-quiz"
+            },
+            {
+              "id": "ch04-gazebo-simulation/index",
+              "path": "/physical-ai-textbook/ch04-gazebo-simulation/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch05-isaac-platform/exercises/chapter5-quiz",
+              "path": "/physical-ai-textbook/ch05-isaac-platform/exercises/chapter5-quiz"
+            },
+            {
+              "id": "ch05-isaac-platform/index",
+              "path": "/physical-ai-textbook/ch05-isaac-platform/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch06-urdf-xacro/exercises/chapter6-quiz",
+              "path": "/physical-ai-textbook/ch06-urdf-xacro/exercises/chapter6-quiz"
+            },
+            {
+              "id": "ch06-urdf-xacro/index",
+              "path": "/physical-ai-textbook/ch06-urdf-xacro/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch07-perception-systems/exercises/chapter7-quiz",
+              "path": "/physical-ai-textbook/ch07-perception-systems/exercises/chapter7-quiz"
+            },
+            {
+              "id": "ch07-perception-systems/index",
+              "path": "/physical-ai-textbook/ch07-perception-systems/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch08-navigation/exercises/chapter8-quiz",
+              "path": "/physical-ai-textbook/ch08-navigation/exercises/chapter8-quiz"
+            },
+            {
+              "id": "ch08-navigation/index",
+              "path": "/physical-ai-textbook/ch08-navigation/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch09-manipulation/exercises/chapter9-quiz",
+              "path": "/physical-ai-textbook/ch09-manipulation/exercises/chapter9-quiz"
+            },
+            {
+              "id": "ch09-manipulation/index",
+              "path": "/physical-ai-textbook/ch09-manipulation/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch10-vla-models/index",
+              "path": "/physical-ai-textbook/ch10-vla-models/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch11-humanoid-design/index",
+              "path": "/physical-ai-textbook/ch11-humanoid-design/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch12-learning-adaptation/index",
+              "path": "/physical-ai-textbook/ch12-learning-adaptation/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch13-multi-robot-systems/index",
+              "path": "/physical-ai-textbook/ch13-multi-robot-systems/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch14-safety-ethics/index",
+              "path": "/physical-ai-textbook/ch14-safety-ethics/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "ch15-capstone-project/exercises/chapter15-quiz",
+              "path": "/physical-ai-textbook/ch15-capstone-project/exercises/chapter15-quiz"
+            },
+            {
+              "id": "ch15-capstone-project/index",
+              "path": "/physical-ai-textbook/ch15-capstone-project/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "getting-started/intro",
+              "path": "/physical-ai-textbook/getting-started/intro",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/physical-ai-textbook/"
+            },
+            {
+              "id": "reference/api-reference",
+              "path": "/physical-ai-textbook/reference/api-reference",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "reference/dependencies",
+              "path": "/physical-ai-textbook/reference/dependencies",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "reference/glossary",
+              "path": "/physical-ai-textbook/reference/glossary",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "reference/hardware-specs",
+              "path": "/physical-ai-textbook/reference/hardware-specs",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "reference/quiz-template",
+              "path": "/physical-ai-textbook/reference/quiz-template",
+              "sidebar": "textbookSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "textbookSidebar": {
+              "link": {
+                "path": "/physical-ai-textbook/getting-started/intro",
+                "label": "Getting Started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

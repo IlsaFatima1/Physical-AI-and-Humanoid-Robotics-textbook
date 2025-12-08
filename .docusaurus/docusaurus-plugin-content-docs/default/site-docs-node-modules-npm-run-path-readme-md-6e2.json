@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/npm-run-path/readme",
+  "title": "npm-run-path [![Build Status](https://travis-ci.org/sindresorhus/npm-run-path.svg?branch=master)](https://travis-ci.org/sindresorhus/npm-run-path)",
+  "description": "Get your PATH) prepended with locally installed binaries",
+  "source": "@site/docs/node_modules/npm-run-path/readme.md",
+  "sourceDirName": "node_modules/npm-run-path",
+  "slug": "/node_modules/npm-run-path/",
+  "permalink": "/physical-ai-textbook/node_modules/npm-run-path/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/npm-run-path/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

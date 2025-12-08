@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/is-inside-container/node_modules/is-docker/readme",
+  "title": "is-docker",
+  "description": "Check if the process is running inside a Docker container",
+  "source": "@site/docs/node_modules/is-inside-container/node_modules/is-docker/readme.md",
+  "sourceDirName": "node_modules/is-inside-container/node_modules/is-docker",
+  "slug": "/node_modules/is-inside-container/node_modules/is-docker/",
+  "permalink": "/physical-ai-textbook/node_modules/is-inside-container/node_modules/is-docker/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/is-inside-container/node_modules/is-docker/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

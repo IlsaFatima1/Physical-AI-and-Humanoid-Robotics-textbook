@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/acorn-walk/README",
+  "title": "Acorn AST walker",
+  "description": "An abstract syntax tree walker for the",
+  "source": "@site/docs/node_modules/acorn-walk/README.md",
+  "sourceDirName": "node_modules/acorn-walk",
+  "slug": "/node_modules/acorn-walk/",
+  "permalink": "/physical-ai-textbook/node_modules/acorn-walk/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/acorn-walk/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

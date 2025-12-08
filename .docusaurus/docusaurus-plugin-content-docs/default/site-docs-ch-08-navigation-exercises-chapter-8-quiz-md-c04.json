@@ -1,0 +1,15 @@
+{
+  "id": "ch08-navigation/exercises/chapter8-quiz",
+  "title": "Chapter 8 Quiz: Mobile Robot Navigation and Path Planning",
+  "description": "Multiple Choice Questions",
+  "source": "@site/docs/ch08-navigation/exercises/chapter8-quiz.md",
+  "sourceDirName": "ch08-navigation/exercises",
+  "slug": "/ch08-navigation/exercises/chapter8-quiz",
+  "permalink": "/physical-ai-textbook/ch08-navigation/exercises/chapter8-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch08-navigation/exercises/chapter8-quiz.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

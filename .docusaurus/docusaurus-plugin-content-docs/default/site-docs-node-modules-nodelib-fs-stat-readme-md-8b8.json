@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@nodelib/fs.stat/README",
+  "title": "@nodelib/fs.stat",
+  "description": "Get the status of a file with some features.",
+  "source": "@site/docs/node_modules/@nodelib/fs.stat/README.md",
+  "sourceDirName": "node_modules/@nodelib/fs.stat",
+  "slug": "/node_modules/@nodelib/fs.stat/",
+  "permalink": "/physical-ai-textbook/node_modules/@nodelib/fs.stat/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@nodelib/fs.stat/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

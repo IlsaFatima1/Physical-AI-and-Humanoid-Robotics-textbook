@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-literals/README",
+  "title": "@babel/plugin-transform-literals",
+  "description": "Compile ES2015 unicode string and number literals to ES5",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-literals/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-literals",
+  "slug": "/node_modules/@babel/plugin-transform-literals/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-literals/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-literals/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

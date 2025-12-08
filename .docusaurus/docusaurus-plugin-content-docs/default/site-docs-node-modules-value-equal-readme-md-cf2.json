@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/value-equal/README",
+  "title": "value-equal [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]",
+  "description": "[build-badge]//img.shields.io/travis/mjackson/value-equal/master.svg?style=flat-square",
+  "source": "@site/docs/node_modules/value-equal/README.md",
+  "sourceDirName": "node_modules/value-equal",
+  "slug": "/node_modules/value-equal/",
+  "permalink": "/physical-ai-textbook/node_modules/value-equal/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/value-equal/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

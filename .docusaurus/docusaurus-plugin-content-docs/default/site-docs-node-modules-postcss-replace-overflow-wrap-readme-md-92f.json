@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-replace-overflow-wrap/README",
+  "title": "PostCSS Replace Overflow Wrap [![CSS Standard Status][css-img]][css] [![Build Status][ci-img]][ci]",
+  "description": "[PostCSS] plugin to replace overflow-wrap with word-wrap. May optionally retain both declarations.",
+  "source": "@site/docs/node_modules/postcss-replace-overflow-wrap/README.md",
+  "sourceDirName": "node_modules/postcss-replace-overflow-wrap",
+  "slug": "/node_modules/postcss-replace-overflow-wrap/",
+  "permalink": "/physical-ai-textbook/node_modules/postcss-replace-overflow-wrap/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/postcss-replace-overflow-wrap/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

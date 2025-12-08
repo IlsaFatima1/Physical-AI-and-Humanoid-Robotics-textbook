@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-syntax-import-attributes/README",
+  "title": "@babel/plugin-syntax-import-attributes",
+  "description": "Allow parsing of the module attributes in the import statement",
+  "source": "@site/docs/node_modules/@babel/plugin-syntax-import-attributes/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-syntax-import-attributes",
+  "slug": "/node_modules/@babel/plugin-syntax-import-attributes/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-syntax-import-attributes/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-syntax-import-attributes/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

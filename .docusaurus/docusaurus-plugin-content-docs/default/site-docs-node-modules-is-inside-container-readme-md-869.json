@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/is-inside-container/readme",
+  "title": "is-inside-container",
+  "description": "Check if the process is running inside a container",
+  "source": "@site/docs/node_modules/is-inside-container/readme.md",
+  "sourceDirName": "node_modules/is-inside-container",
+  "slug": "/node_modules/is-inside-container/",
+  "permalink": "/physical-ai-textbook/node_modules/is-inside-container/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/is-inside-container/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

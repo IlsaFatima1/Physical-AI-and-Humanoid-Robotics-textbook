@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/caniuse-lite/README",
+  "title": "caniuse-lite",
+  "description": "A smaller version of caniuse-db, with only the essentials!",
+  "source": "@site/docs/node_modules/caniuse-lite/README.md",
+  "sourceDirName": "node_modules/caniuse-lite",
+  "slug": "/node_modules/caniuse-lite/",
+  "permalink": "/physical-ai-textbook/node_modules/caniuse-lite/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/caniuse-lite/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

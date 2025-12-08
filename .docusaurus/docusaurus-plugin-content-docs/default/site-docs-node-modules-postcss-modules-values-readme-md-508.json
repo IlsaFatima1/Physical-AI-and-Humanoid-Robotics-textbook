@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-modules-values/README",
+  "title": "CSS Modules: Values",
+  "description": "Pass arbitrary values between your module files",
+  "source": "@site/docs/node_modules/postcss-modules-values/README.md",
+  "sourceDirName": "node_modules/postcss-modules-values",
+  "slug": "/node_modules/postcss-modules-values/",
+  "permalink": "/physical-ai-textbook/node_modules/postcss-modules-values/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/postcss-modules-values/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/tapable/README",
+  "title": "Tapable",
+  "description": "The tapable package exposes many Hook classes, which can be used to create hooks for plugins.",
+  "source": "@site/docs/node_modules/tapable/README.md",
+  "sourceDirName": "node_modules/tapable",
+  "slug": "/node_modules/tapable/",
+  "permalink": "/physical-ai-textbook/node_modules/tapable/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/tapable/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

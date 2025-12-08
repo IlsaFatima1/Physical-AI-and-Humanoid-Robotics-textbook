@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/terser-webpack-plugin/node_modules/jest-worker/README",
+  "title": "jest-worker",
+  "description": "Module for executing heavy tasks under forked processes in parallel, by providing a Promise based interface, minimum overhead, and bound workers.",
+  "source": "@site/docs/node_modules/terser-webpack-plugin/node_modules/jest-worker/README.md",
+  "sourceDirName": "node_modules/terser-webpack-plugin/node_modules/jest-worker",
+  "slug": "/node_modules/terser-webpack-plugin/node_modules/jest-worker/",
+  "permalink": "/physical-ai-textbook/node_modules/terser-webpack-plugin/node_modules/jest-worker/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/terser-webpack-plugin/node_modules/jest-worker/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

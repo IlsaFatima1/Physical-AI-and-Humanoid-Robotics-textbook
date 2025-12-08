@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-react-jsx/README",
+  "title": "@babel/plugin-transform-react-jsx",
+  "description": "Turn JSX into React function calls",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-react-jsx/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-react-jsx",
+  "slug": "/node_modules/@babel/plugin-transform-react-jsx/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-react-jsx/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-react-jsx/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

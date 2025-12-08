@@ -1,0 +1,24 @@
+{
+  "id": "ch06-urdf-xacro/index",
+  "title": "Chapter 6: URDF and XACRO for Robot Modeling",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch06-urdf-xacro/index.md",
+  "sourceDirName": "ch06-urdf-xacro",
+  "slug": "/ch06-urdf-xacro/",
+  "permalink": "/physical-ai-textbook/ch06-urdf-xacro/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch06-urdf-xacro/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 5: NVIDIA Isaac Platform",
+    "permalink": "/physical-ai-textbook/ch05-isaac-platform/"
+  },
+  "next": {
+    "title": "Chapter 7: Perception Systems and Computer Vision",
+    "permalink": "/physical-ai-textbook/ch07-perception-systems/"
+  }
+}

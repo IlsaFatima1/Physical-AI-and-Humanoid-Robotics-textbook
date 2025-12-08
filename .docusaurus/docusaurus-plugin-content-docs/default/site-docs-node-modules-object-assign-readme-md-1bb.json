@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/object-assign/readme",
+  "title": "object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)",
+  "description": "ES2015 Object.assign() ponyfill",
+  "source": "@site/docs/node_modules/object-assign/readme.md",
+  "sourceDirName": "node_modules/object-assign",
+  "slug": "/node_modules/object-assign/",
+  "permalink": "/physical-ai-textbook/node_modules/object-assign/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/object-assign/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

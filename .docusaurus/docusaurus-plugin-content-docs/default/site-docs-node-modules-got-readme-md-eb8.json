@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/got/readme",
+  "title": "readme",
+  "description": "Sindre's open source work is supported by the community.Special thanks to:",
+  "source": "@site/docs/node_modules/got/readme.md",
+  "sourceDirName": "node_modules/got",
+  "slug": "/node_modules/got/",
+  "permalink": "/physical-ai-textbook/node_modules/got/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/got/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

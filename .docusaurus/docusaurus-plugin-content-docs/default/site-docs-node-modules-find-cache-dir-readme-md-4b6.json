@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/find-cache-dir/readme",
+  "title": "find-cache-dir",
+  "description": "Finds the common standard cache directory",
+  "source": "@site/docs/node_modules/find-cache-dir/readme.md",
+  "sourceDirName": "node_modules/find-cache-dir",
+  "slug": "/node_modules/find-cache-dir/",
+  "permalink": "/physical-ai-textbook/node_modules/find-cache-dir/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/find-cache-dir/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

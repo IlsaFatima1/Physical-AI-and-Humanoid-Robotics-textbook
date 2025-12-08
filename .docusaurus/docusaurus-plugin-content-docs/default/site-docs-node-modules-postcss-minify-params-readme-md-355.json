@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-minify-params/README",
+  "title": "postcss-minify-params [![Build Status][ci-img]][ci]",
+  "description": "Minify at-rule params with PostCSS.",
+  "source": "@site/docs/node_modules/postcss-minify-params/README.md",
+  "sourceDirName": "node_modules/postcss-minify-params",
+  "slug": "/node_modules/postcss-minify-params/",
+  "permalink": "/physical-ai-textbook/node_modules/postcss-minify-params/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/postcss-minify-params/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

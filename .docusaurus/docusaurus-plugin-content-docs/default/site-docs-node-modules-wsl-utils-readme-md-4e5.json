@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/wsl-utils/readme",
+  "title": "wsl-utils",
+  "description": "Utilities for working with Windows Subsystem for Linux (WSL)",
+  "source": "@site/docs/node_modules/wsl-utils/readme.md",
+  "sourceDirName": "node_modules/wsl-utils",
+  "slug": "/node_modules/wsl-utils/",
+  "permalink": "/physical-ai-textbook/node_modules/wsl-utils/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/wsl-utils/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

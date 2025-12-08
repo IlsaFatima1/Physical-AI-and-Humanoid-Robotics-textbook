@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/core-js-pure/internals/README",
+  "title": "README",
+  "description": "This folder contains internal parts of core-js like helpers.",
+  "source": "@site/docs/node_modules/core-js-pure/internals/README.md",
+  "sourceDirName": "node_modules/core-js-pure/internals",
+  "slug": "/node_modules/core-js-pure/internals/",
+  "permalink": "/physical-ai-textbook/node_modules/core-js-pure/internals/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/core-js-pure/internals/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

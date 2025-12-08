@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/thunky/README",
+  "title": "thunky",
+  "description": "Delay the evaluation of a paramless async function and cache the result (see thunk).",
+  "source": "@site/docs/node_modules/thunky/README.md",
+  "sourceDirName": "node_modules/thunky",
+  "slug": "/node_modules/thunky/",
+  "permalink": "/physical-ai-textbook/node_modules/thunky/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/thunky/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

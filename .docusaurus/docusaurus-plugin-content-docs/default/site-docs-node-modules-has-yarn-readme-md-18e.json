@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/has-yarn/readme",
+  "title": "has-yarn",
+  "description": "Check if a project is using Yarn",
+  "source": "@site/docs/node_modules/has-yarn/readme.md",
+  "sourceDirName": "node_modules/has-yarn",
+  "slug": "/node_modules/has-yarn/",
+  "permalink": "/physical-ai-textbook/node_modules/has-yarn/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/has-yarn/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

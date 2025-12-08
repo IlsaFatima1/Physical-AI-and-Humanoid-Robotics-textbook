@@ -1,0 +1,24 @@
+{
+  "id": "ch08-navigation/index",
+  "title": "Chapter 8: Mobile Robot Navigation and Path Planning",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch08-navigation/index.md",
+  "sourceDirName": "ch08-navigation",
+  "slug": "/ch08-navigation/",
+  "permalink": "/physical-ai-textbook/ch08-navigation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch08-navigation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 7: Perception Systems and Computer Vision",
+    "permalink": "/physical-ai-textbook/ch07-perception-systems/"
+  },
+  "next": {
+    "title": "Chapter 9: Manipulation and Control Systems",
+    "permalink": "/physical-ai-textbook/ch09-manipulation/"
+  }
+}

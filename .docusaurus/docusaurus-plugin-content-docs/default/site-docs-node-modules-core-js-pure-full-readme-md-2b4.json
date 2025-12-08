@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/core-js-pure/full/README",
+  "title": "README",
+  "description": "This folder contains entry points for all core-js features with dependencies. It's the recommended way for usage only required features.",
+  "source": "@site/docs/node_modules/core-js-pure/full/README.md",
+  "sourceDirName": "node_modules/core-js-pure/full",
+  "slug": "/node_modules/core-js-pure/full/",
+  "permalink": "/physical-ai-textbook/node_modules/core-js-pure/full/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/core-js-pure/full/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ch09-manipulation/index",
+  "title": "Chapter 9: Manipulation and Control Systems",
+  "description": "Learning Objectives",
+  "source": "@site/docs/ch09-manipulation/index.md",
+  "sourceDirName": "ch09-manipulation",
+  "slug": "/ch09-manipulation/",
+  "permalink": "/physical-ai-textbook/ch09-manipulation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch09-manipulation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 8: Mobile Robot Navigation and Path Planning",
+    "permalink": "/physical-ai-textbook/ch08-navigation/"
+  },
+  "next": {
+    "title": "Chapter 10: Vision-Language-Action Models",
+    "permalink": "/physical-ai-textbook/ch10-vla-models/"
+  }
+}

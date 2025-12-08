@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@docusaurus/logger/README",
+  "title": "@docusaurus/logger",
+  "description": "An encapsulated logger for semantically formatting console messages.",
+  "source": "@site/docs/node_modules/@docusaurus/logger/README.md",
+  "sourceDirName": "node_modules/@docusaurus/logger",
+  "slug": "/node_modules/@docusaurus/logger/",
+  "permalink": "/physical-ai-textbook/node_modules/@docusaurus/logger/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@docusaurus/logger/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

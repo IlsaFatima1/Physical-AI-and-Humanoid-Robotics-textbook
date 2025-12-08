@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/serve-static/README",
+  "title": "Installation",
+  "description": "npm install --save @types/serve-static",
+  "source": "@site/docs/node_modules/@types/serve-static/README.md",
+  "sourceDirName": "node_modules/@types/serve-static",
+  "slug": "/node_modules/@types/serve-static/",
+  "permalink": "/physical-ai-textbook/node_modules/@types/serve-static/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@types/serve-static/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

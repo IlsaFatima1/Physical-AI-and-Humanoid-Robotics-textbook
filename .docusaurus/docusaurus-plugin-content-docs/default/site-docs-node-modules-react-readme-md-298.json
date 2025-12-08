@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/react/README",
+  "title": "react",
+  "description": "React is a JavaScript library for creating user interfaces.",
+  "source": "@site/docs/node_modules/react/README.md",
+  "sourceDirName": "node_modules/react",
+  "slug": "/node_modules/react/",
+  "permalink": "/physical-ai-textbook/node_modules/react/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/react/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

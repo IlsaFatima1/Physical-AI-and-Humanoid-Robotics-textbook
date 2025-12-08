@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/path-to-regexp/Readme",
+  "title": "Path-to-RegExp",
+  "description": "Turn an Express-style path string such as /user/:name into a regular expression.",
+  "source": "@site/docs/node_modules/path-to-regexp/Readme.md",
+  "sourceDirName": "node_modules/path-to-regexp",
+  "slug": "/node_modules/path-to-regexp/",
+  "permalink": "/physical-ai-textbook/node_modules/path-to-regexp/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/path-to-regexp/Readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

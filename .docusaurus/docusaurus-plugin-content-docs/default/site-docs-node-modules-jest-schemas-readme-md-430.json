@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@jest/schemas/README",
+  "title": "@jest/schemas",
+  "description": "Experimental and currently incomplete module for JSON schemas for Jest's configuration.",
+  "source": "@site/docs/node_modules/@jest/schemas/README.md",
+  "sourceDirName": "node_modules/@jest/schemas",
+  "slug": "/node_modules/@jest/schemas/",
+  "permalink": "/physical-ai-textbook/node_modules/@jest/schemas/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@jest/schemas/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

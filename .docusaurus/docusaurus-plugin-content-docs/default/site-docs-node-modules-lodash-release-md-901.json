@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/lodash/release",
+  "title": "release",
+  "description": "npm run build",
+  "source": "@site/docs/node_modules/lodash/release.md",
+  "sourceDirName": "node_modules/lodash",
+  "slug": "/node_modules/lodash/release",
+  "permalink": "/physical-ai-textbook/node_modules/lodash/release",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/lodash/release.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

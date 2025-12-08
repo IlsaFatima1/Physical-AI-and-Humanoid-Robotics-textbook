@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-syntax-dynamic-import/README",
+  "title": "@babel/plugin-syntax-dynamic-import",
+  "description": "Allow parsing of import()",
+  "source": "@site/docs/node_modules/@babel/plugin-syntax-dynamic-import/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-syntax-dynamic-import",
+  "slug": "/node_modules/@babel/plugin-syntax-dynamic-import/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-syntax-dynamic-import/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-syntax-dynamic-import/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

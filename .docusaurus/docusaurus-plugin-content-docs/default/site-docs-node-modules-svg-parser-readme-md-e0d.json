@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/svg-parser/README",
+  "title": "svg-parser",
+  "description": "Take a string representing an SVG document or fragment, turn it into HAST JavaScript object.",
+  "source": "@site/docs/node_modules/svg-parser/README.md",
+  "sourceDirName": "node_modules/svg-parser",
+  "slug": "/node_modules/svg-parser/",
+  "permalink": "/physical-ai-textbook/node_modules/svg-parser/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/svg-parser/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

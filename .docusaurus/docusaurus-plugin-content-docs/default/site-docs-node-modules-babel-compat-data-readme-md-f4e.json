@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/compat-data/README",
+  "title": "@babel/compat-data",
+  "description": "The compat-data to determine required Babel plugins",
+  "source": "@site/docs/node_modules/@babel/compat-data/README.md",
+  "sourceDirName": "node_modules/@babel/compat-data",
+  "slug": "/node_modules/@babel/compat-data/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/compat-data/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/compat-data/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

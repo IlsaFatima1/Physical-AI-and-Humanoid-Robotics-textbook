@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/vary/HISTORY",
+  "title": "1.1.2 / 2017-09-23",
+  "description": "* perf: improve header token parsing speed",
+  "source": "@site/docs/node_modules/vary/HISTORY.md",
+  "sourceDirName": "node_modules/vary",
+  "slug": "/node_modules/vary/HISTORY",
+  "permalink": "/physical-ai-textbook/node_modules/vary/HISTORY",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/vary/HISTORY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

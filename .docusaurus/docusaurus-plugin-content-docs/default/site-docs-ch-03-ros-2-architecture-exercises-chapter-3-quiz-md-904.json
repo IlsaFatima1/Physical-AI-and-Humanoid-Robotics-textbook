@@ -1,0 +1,15 @@
+{
+  "id": "ch03-ros2-architecture/exercises/chapter3-quiz",
+  "title": "Chapter 3 Quiz: ROS 2 Architecture and Communication",
+  "description": "Multiple Choice Questions",
+  "source": "@site/docs/ch03-ros2-architecture/exercises/chapter3-quiz.md",
+  "sourceDirName": "ch03-ros2-architecture/exercises",
+  "slug": "/ch03-ros2-architecture/exercises/chapter3-quiz",
+  "permalink": "/physical-ai-textbook/ch03-ros2-architecture/exercises/chapter3-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch03-ros2-architecture/exercises/chapter3-quiz.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

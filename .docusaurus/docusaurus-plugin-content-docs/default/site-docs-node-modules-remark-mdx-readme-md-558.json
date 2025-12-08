@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/remark-mdx/readme",
+  "title": "remark-mdx",
+  "description": "Build",
+  "source": "@site/docs/node_modules/remark-mdx/readme.md",
+  "sourceDirName": "node_modules/remark-mdx",
+  "slug": "/node_modules/remark-mdx/",
+  "permalink": "/physical-ai-textbook/node_modules/remark-mdx/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/remark-mdx/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

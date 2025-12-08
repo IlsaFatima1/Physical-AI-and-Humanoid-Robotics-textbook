@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/normalize-range/readme",
+  "title": "normalize-range",
+  "description": "Utility for normalizing a numeric range, with a wrapping function useful for polar coordinates.",
+  "source": "@site/docs/node_modules/normalize-range/readme.md",
+  "sourceDirName": "node_modules/normalize-range",
+  "slug": "/node_modules/normalize-range/",
+  "permalink": "/physical-ai-textbook/node_modules/normalize-range/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/normalize-range/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

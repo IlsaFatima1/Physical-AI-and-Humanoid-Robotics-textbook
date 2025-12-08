@@ -25,7 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "E:\\gemini_cli\\book\\docs\\sidebars.js",
+          "sidebarPath": "D:\\gemini_cli\\hackathon1\\Physical-AI-and-Humanoid-Robotics-textbook\\docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "routeBasePath": "/",
           "path": ".",
@@ -35,7 +35,7 @@ export default {
         },
         "blog": false,
         "theme": {
-          "customCss": "E:\\gemini_cli\\book\\docs\\src\\css\\custom.css"
+          "customCss": "D:\\gemini_cli\\hackathon1\\Physical-AI-and-Humanoid-Robotics-textbook\\docs\\src\\css\\custom.css"
         }
       }
     ]

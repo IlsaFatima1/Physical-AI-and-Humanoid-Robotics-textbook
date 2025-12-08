@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/marked/man/marked.1",
+  "title": "marked(1) -- a javascript markdown parser",
+  "description": "SYNOPSIS",
+  "source": "@site/docs/node_modules/marked/man/marked.1.md",
+  "sourceDirName": "node_modules/marked/man",
+  "slug": "/node_modules/marked/man/marked.1",
+  "permalink": "/physical-ai-textbook/node_modules/marked/man/marked.1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/marked/man/marked.1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/lru-cache/README",
+  "title": "lru cache",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "source": "@site/docs/node_modules/lru-cache/README.md",
+  "sourceDirName": "node_modules/lru-cache",
+  "slug": "/node_modules/lru-cache/",
+  "permalink": "/physical-ai-textbook/node_modules/lru-cache/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/lru-cache/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

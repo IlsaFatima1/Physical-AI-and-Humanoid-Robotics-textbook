@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/webpack-dev-middleware/node_modules/mime-types/HISTORY",
+  "title": "3.0.2 / 2025-11-20",
+  "description": "* Fix: update JSDoc to reflect that functions return only false or string, not boolean|string.",
+  "source": "@site/docs/node_modules/webpack-dev-middleware/node_modules/mime-types/HISTORY.md",
+  "sourceDirName": "node_modules/webpack-dev-middleware/node_modules/mime-types",
+  "slug": "/node_modules/webpack-dev-middleware/node_modules/mime-types/HISTORY",
+  "permalink": "/physical-ai-textbook/node_modules/webpack-dev-middleware/node_modules/mime-types/HISTORY",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/webpack-dev-middleware/node_modules/mime-types/HISTORY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

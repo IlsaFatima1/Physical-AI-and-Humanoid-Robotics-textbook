@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-dotall-regex/README",
+  "title": "@babel/plugin-transform-dotall-regex",
+  "description": "Compile regular expressions using the s (dotAll) flag to ES5.",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-dotall-regex/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-dotall-regex",
+  "slug": "/node_modules/@babel/plugin-transform-dotall-regex/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-dotall-regex/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-dotall-regex/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

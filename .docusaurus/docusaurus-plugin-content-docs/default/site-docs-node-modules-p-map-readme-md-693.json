@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/p-map/readme",
+  "title": "p-map [![Build Status](https://travis-ci.org/sindresorhus/p-map.svg?branch=master)](https://travis-ci.org/sindresorhus/p-map)",
+  "description": "Map over promises concurrently",
+  "source": "@site/docs/node_modules/p-map/readme.md",
+  "sourceDirName": "node_modules/p-map",
+  "slug": "/node_modules/p-map/",
+  "permalink": "/physical-ai-textbook/node_modules/p-map/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/p-map/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

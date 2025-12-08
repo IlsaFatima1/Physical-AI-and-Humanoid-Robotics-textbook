@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/runtime/README",
+  "title": "@babel/runtime",
+  "description": "babel's modular runtime helpers",
+  "source": "@site/docs/node_modules/@babel/runtime/README.md",
+  "sourceDirName": "node_modules/@babel/runtime",
+  "slug": "/node_modules/@babel/runtime/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/runtime/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/runtime/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

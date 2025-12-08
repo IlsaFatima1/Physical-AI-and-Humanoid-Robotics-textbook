@@ -1,0 +1,24 @@
+{
+  "id": "reference/hardware-specs",
+  "title": "Hardware Specifications and Reference Tables",
+  "description": "This reference provides detailed specifications for common robotics hardware platforms, sensors, actuators, and computing systems used in Physical AI and Humanoid Robotics.",
+  "source": "@site/docs/reference/hardware-specs.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/hardware-specs",
+  "permalink": "/physical-ai-textbook/reference/hardware-specs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/reference/hardware-specs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/physical-ai-textbook/reference/glossary"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/physical-ai-textbook/reference/api-reference"
+  }
+}

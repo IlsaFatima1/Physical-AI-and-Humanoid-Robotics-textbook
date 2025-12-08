@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/p-cancelable/readme",
+  "title": "p-cancelable",
+  "description": "Create a promise that can be canceled",
+  "source": "@site/docs/node_modules/p-cancelable/readme.md",
+  "sourceDirName": "node_modules/p-cancelable",
+  "slug": "/node_modules/p-cancelable/",
+  "permalink": "/physical-ai-textbook/node_modules/p-cancelable/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/p-cancelable/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

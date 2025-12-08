@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/lodash.memoize/README",
+  "title": "lodash.memoize v4.1.2",
+  "description": "The lodash method _.memoize exported as a Node.js module.",
+  "source": "@site/docs/node_modules/lodash.memoize/README.md",
+  "sourceDirName": "node_modules/lodash.memoize",
+  "slug": "/node_modules/lodash.memoize/",
+  "permalink": "/physical-ai-textbook/node_modules/lodash.memoize/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/lodash.memoize/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

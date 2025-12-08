@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@docsearch/core/README",
+  "title": "@docsearch/core",
+  "description": "Core logic and state package for DocSearch, the best search experience for docs.",
+  "source": "@site/docs/node_modules/@docsearch/core/README.md",
+  "sourceDirName": "node_modules/@docsearch/core",
+  "slug": "/node_modules/@docsearch/core/",
+  "permalink": "/physical-ai-textbook/node_modules/@docsearch/core/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@docsearch/core/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/faye-websocket/README",
+  "title": "faye-websocket",
+  "description": "This is a general-purpose WebSocket implementation extracted from the",
+  "source": "@site/docs/node_modules/faye-websocket/README.md",
+  "sourceDirName": "node_modules/faye-websocket",
+  "slug": "/node_modules/faye-websocket/",
+  "permalink": "/physical-ai-textbook/node_modules/faye-websocket/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/faye-websocket/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

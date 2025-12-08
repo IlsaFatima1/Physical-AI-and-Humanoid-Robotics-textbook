@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-numeric-separator/README",
+  "title": "@babel/plugin-transform-numeric-separator",
+  "description": "Remove numeric separators from Decimal, Binary, Hex and Octal literals",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-numeric-separator/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-numeric-separator",
+  "slug": "/node_modules/@babel/plugin-transform-numeric-separator/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-numeric-separator/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-numeric-separator/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

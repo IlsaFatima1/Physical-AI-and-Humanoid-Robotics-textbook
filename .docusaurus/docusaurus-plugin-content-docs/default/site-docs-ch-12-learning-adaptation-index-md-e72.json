@@ -1,0 +1,24 @@
+{
+  "id": "ch12-learning-adaptation/index",
+  "title": "Chapter 12: Learning and Adaptation in Robotics",
+  "description": "This chapter covers machine learning techniques for robotics, including reinforcement learning, imitation learning, and adaptive control methods that enable robots to improve their performance over time.",
+  "source": "@site/docs/ch12-learning-adaptation/index.md",
+  "sourceDirName": "ch12-learning-adaptation",
+  "slug": "/ch12-learning-adaptation/",
+  "permalink": "/physical-ai-textbook/ch12-learning-adaptation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch12-learning-adaptation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 11: Humanoid Robot Design and Control",
+    "permalink": "/physical-ai-textbook/ch11-humanoid-design/"
+  },
+  "next": {
+    "title": "Chapter 13: Multi-Robot Systems and Coordination",
+    "permalink": "/physical-ai-textbook/ch13-multi-robot-systems/"
+  }
+}

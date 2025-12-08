@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@docusaurus/theme-translations/README",
+  "title": "Docusaurus theme translations",
+  "description": "This package includes default translations for labels (like the pagination \"Next\" / \"Previous\") used by official Docusaurus themes.",
+  "source": "@site/docs/node_modules/@docusaurus/theme-translations/README.md",
+  "sourceDirName": "node_modules/@docusaurus/theme-translations",
+  "slug": "/node_modules/@docusaurus/theme-translations/",
+  "permalink": "/physical-ai-textbook/node_modules/@docusaurus/theme-translations/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@docusaurus/theme-translations/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

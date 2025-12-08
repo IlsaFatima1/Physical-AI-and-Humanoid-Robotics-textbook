@@ -1,0 +1,24 @@
+{
+  "id": "ch10-vla-models/index",
+  "title": "Chapter 10: Vision-Language-Action Models",
+  "description": "This chapter covers Vision-Language-Action (VLA) models in robotics, which integrate visual perception, natural language understanding, and motor control in unified frameworks.",
+  "source": "@site/docs/ch10-vla-models/index.md",
+  "sourceDirName": "ch10-vla-models",
+  "slug": "/ch10-vla-models/",
+  "permalink": "/physical-ai-textbook/ch10-vla-models/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch10-vla-models/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 9: Manipulation and Control Systems",
+    "permalink": "/physical-ai-textbook/ch09-manipulation/"
+  },
+  "next": {
+    "title": "Chapter 11: Humanoid Robot Design and Control",
+    "permalink": "/physical-ai-textbook/ch11-humanoid-design/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/postcss-font-variant/CHANGELOG",
+  "title": "5.0.0 - 2021-01-12",
+  "description": "- Changed: use PostCSS 7 API",
+  "source": "@site/docs/node_modules/postcss-font-variant/CHANGELOG.md",
+  "sourceDirName": "node_modules/postcss-font-variant",
+  "slug": "/node_modules/postcss-font-variant/CHANGELOG",
+  "permalink": "/physical-ai-textbook/node_modules/postcss-font-variant/CHANGELOG",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/postcss-font-variant/CHANGELOG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/unified/readme",
+  "title": "[![unified][logo]][site]",
+  "description": "Build",
+  "source": "@site/docs/node_modules/unified/readme.md",
+  "sourceDirName": "node_modules/unified",
+  "slug": "/node_modules/unified/",
+  "permalink": "/physical-ai-textbook/node_modules/unified/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/unified/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

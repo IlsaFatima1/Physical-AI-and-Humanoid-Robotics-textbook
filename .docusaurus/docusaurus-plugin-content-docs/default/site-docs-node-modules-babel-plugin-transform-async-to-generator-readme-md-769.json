@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-async-to-generator/README",
+  "title": "@babel/plugin-transform-async-to-generator",
+  "description": "Turn async functions into ES2015 generators",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-async-to-generator/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-async-to-generator",
+  "slug": "/node_modules/@babel/plugin-transform-async-to-generator/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-async-to-generator/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-async-to-generator/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/mime/README",
+  "title": "Installation",
+  "description": "npm install --save @types/mime",
+  "source": "@site/docs/node_modules/@types/mime/README.md",
+  "sourceDirName": "node_modules/@types/mime",
+  "slug": "/node_modules/@types/mime/",
+  "permalink": "/physical-ai-textbook/node_modules/@types/mime/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@types/mime/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@types/react-router-dom/README",
+  "title": "Installation",
+  "description": "npm install --save @types/react-router-dom",
+  "source": "@site/docs/node_modules/@types/react-router-dom/README.md",
+  "sourceDirName": "node_modules/@types/react-router-dom",
+  "slug": "/node_modules/@types/react-router-dom/",
+  "permalink": "/physical-ai-textbook/node_modules/@types/react-router-dom/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@types/react-router-dom/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

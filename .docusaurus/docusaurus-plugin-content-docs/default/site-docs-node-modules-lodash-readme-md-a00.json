@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/lodash/README",
+  "title": "lodash v4.17.21",
+  "description": "The Lodash library exported as Node.js modules.",
+  "source": "@site/docs/node_modules/lodash/README.md",
+  "sourceDirName": "node_modules/lodash",
+  "slug": "/node_modules/lodash/",
+  "permalink": "/physical-ai-textbook/node_modules/lodash/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/lodash/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

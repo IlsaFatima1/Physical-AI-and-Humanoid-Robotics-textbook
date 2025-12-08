@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/cacheable-lookup/README",
+  "title": "cacheable-lookup",
+  "description": "A cacheable dns.lookup(…) that respects TTL",
+  "source": "@site/docs/node_modules/cacheable-lookup/README.md",
+  "sourceDirName": "node_modules/cacheable-lookup",
+  "slug": "/node_modules/cacheable-lookup/",
+  "permalink": "/physical-ai-textbook/node_modules/cacheable-lookup/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/cacheable-lookup/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/is-plain-obj/readme",
+  "title": "is-plain-obj",
+  "description": "Check if a value is a plain object",
+  "source": "@site/docs/node_modules/is-plain-obj/readme.md",
+  "sourceDirName": "node_modules/is-plain-obj",
+  "slug": "/node_modules/is-plain-obj/",
+  "permalink": "/physical-ai-textbook/node_modules/is-plain-obj/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/is-plain-obj/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

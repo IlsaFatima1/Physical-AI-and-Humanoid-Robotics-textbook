@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/is-path-inside/readme",
+  "title": "is-path-inside",
+  "description": "Check if a path is inside another path",
+  "source": "@site/docs/node_modules/is-path-inside/readme.md",
+  "sourceDirName": "node_modules/is-path-inside",
+  "slug": "/node_modules/is-path-inside/",
+  "permalink": "/physical-ai-textbook/node_modules/is-path-inside/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/is-path-inside/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

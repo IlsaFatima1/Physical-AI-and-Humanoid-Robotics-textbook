@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/deepmerge/changelog",
+  "title": "[4.3.1](https://github.com/TehShrike/deepmerge/releases/tag/v4.3.1)",
+  "description": "- Fix type definition for arrayMerge options.  #239",
+  "source": "@site/docs/node_modules/deepmerge/changelog.md",
+  "sourceDirName": "node_modules/deepmerge",
+  "slug": "/node_modules/deepmerge/changelog",
+  "permalink": "/physical-ai-textbook/node_modules/deepmerge/changelog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/deepmerge/changelog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "appendices/appendix-e-code-templates",
+  "title": "Appendix E: Code Templates",
+  "description": "This appendix provides reusable code templates for common tasks in Physical AI and Humanoid Robotics development using ROS 2, Gazebo, and NVIDIA Isaac.",
+  "source": "@site/docs/appendices/appendix-e-code-templates.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-e-code-templates",
+  "permalink": "/physical-ai-textbook/appendices/appendix-e-code-templates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/appendices/appendix-e-code-templates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Appendix C: Troubleshooting Guide",
+    "permalink": "/physical-ai-textbook/appendices/appendix-c-troubleshooting"
+  },
+  "next": {
+    "title": "Appendix G: Instructor Resources",
+    "permalink": "/physical-ai-textbook/appendices/appendix-g-resources"
+  }
+}

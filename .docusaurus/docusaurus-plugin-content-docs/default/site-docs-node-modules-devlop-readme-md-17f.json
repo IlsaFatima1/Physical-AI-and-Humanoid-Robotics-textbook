@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/devlop/readme",
+  "title": "devlop",
+  "description": "Build",
+  "source": "@site/docs/node_modules/devlop/readme.md",
+  "sourceDirName": "node_modules/devlop",
+  "slug": "/node_modules/devlop/",
+  "permalink": "/physical-ai-textbook/node_modules/devlop/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/devlop/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@jsonjoy.com/codegen/README",
+  "title": "@jsonjoy.com/codegen",
+  "description": "A no-dependencies, low-level, high-performance JIT code generation package for JavaScript.",
+  "source": "@site/docs/node_modules/@jsonjoy.com/codegen/README.md",
+  "sourceDirName": "node_modules/@jsonjoy.com/codegen",
+  "slug": "/node_modules/@jsonjoy.com/codegen/",
+  "permalink": "/physical-ai-textbook/node_modules/@jsonjoy.com/codegen/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@jsonjoy.com/codegen/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

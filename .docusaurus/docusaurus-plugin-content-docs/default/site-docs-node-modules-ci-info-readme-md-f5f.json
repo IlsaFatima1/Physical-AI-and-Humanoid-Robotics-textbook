@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/ci-info/README",
+  "title": "ci-info",
+  "description": "Get details about the current Continuous Integration environment.",
+  "source": "@site/docs/node_modules/ci-info/README.md",
+  "sourceDirName": "node_modules/ci-info",
+  "slug": "/node_modules/ci-info/",
+  "permalink": "/physical-ai-textbook/node_modules/ci-info/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/ci-info/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

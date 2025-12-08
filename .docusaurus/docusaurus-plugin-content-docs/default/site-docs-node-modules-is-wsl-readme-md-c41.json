@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/is-wsl/readme",
+  "title": "is-wsl [![Build Status](https://travis-ci.org/sindresorhus/is-wsl.svg?branch=master)](https://travis-ci.org/sindresorhus/is-wsl)",
+  "description": "Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)",
+  "source": "@site/docs/node_modules/is-wsl/readme.md",
+  "sourceDirName": "node_modules/is-wsl",
+  "slug": "/node_modules/is-wsl/",
+  "permalink": "/physical-ai-textbook/node_modules/is-wsl/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/is-wsl/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

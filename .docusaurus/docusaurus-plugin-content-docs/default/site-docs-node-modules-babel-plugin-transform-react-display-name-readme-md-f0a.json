@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-react-display-name/README",
+  "title": "@babel/plugin-transform-react-display-name",
+  "description": "Add displayName to React.createClass calls",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-react-display-name/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-react-display-name",
+  "slug": "/node_modules/@babel/plugin-transform-react-display-name/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-react-display-name/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-react-display-name/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

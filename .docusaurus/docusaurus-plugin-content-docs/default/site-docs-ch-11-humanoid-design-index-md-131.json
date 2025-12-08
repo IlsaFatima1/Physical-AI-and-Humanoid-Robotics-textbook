@@ -1,0 +1,24 @@
+{
+  "id": "ch11-humanoid-design/index",
+  "title": "Chapter 11: Humanoid Robot Design and Control",
+  "description": "This chapter explores the principles of humanoid robot design, including mechanical structure, actuation systems, and control strategies specific to bipedal and multi-limbed humanoid robots.",
+  "source": "@site/docs/ch11-humanoid-design/index.md",
+  "sourceDirName": "ch11-humanoid-design",
+  "slug": "/ch11-humanoid-design/",
+  "permalink": "/physical-ai-textbook/ch11-humanoid-design/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/ch11-humanoid-design/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Chapter 10: Vision-Language-Action Models",
+    "permalink": "/physical-ai-textbook/ch10-vla-models/"
+  },
+  "next": {
+    "title": "Chapter 12: Learning and Adaptation in Robotics",
+    "permalink": "/physical-ai-textbook/ch12-learning-adaptation/"
+  }
+}

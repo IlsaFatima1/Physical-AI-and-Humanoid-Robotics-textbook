@@ -1,0 +1,24 @@
+{
+  "id": "appendices/appendix-b-setup",
+  "title": "Appendix B: Setup Guide",
+  "description": "This appendix provides detailed setup procedures for configuring your development environment to work with the Physical AI & Humanoid Robotics textbook examples.",
+  "source": "@site/docs/appendices/appendix-b-setup.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-b-setup",
+  "permalink": "/physical-ai-textbook/appendices/appendix-b-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/appendices/appendix-b-setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Appendix A: Installation Guide",
+    "permalink": "/physical-ai-textbook/appendices/appendix-a-installation"
+  },
+  "next": {
+    "title": "Appendix C: Troubleshooting Guide",
+    "permalink": "/physical-ai-textbook/appendices/appendix-c-troubleshooting"
+  }
+}

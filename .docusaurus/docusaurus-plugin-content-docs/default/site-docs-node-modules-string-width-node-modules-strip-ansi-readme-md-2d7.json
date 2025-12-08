@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/string-width/node_modules/strip-ansi/readme",
+  "title": "strip-ansi",
+  "description": "Strip ANSI escape codes from a string",
+  "source": "@site/docs/node_modules/string-width/node_modules/strip-ansi/readme.md",
+  "sourceDirName": "node_modules/string-width/node_modules/strip-ansi",
+  "slug": "/node_modules/string-width/node_modules/strip-ansi/",
+  "permalink": "/physical-ai-textbook/node_modules/string-width/node_modules/strip-ansi/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/string-width/node_modules/strip-ansi/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/readable-stream/README",
+  "title": "readable-stream",
+  "description": "Node.js core streams for userland Build Status",
+  "source": "@site/docs/node_modules/readable-stream/README.md",
+  "sourceDirName": "node_modules/readable-stream",
+  "slug": "/node_modules/readable-stream/",
+  "permalink": "/physical-ai-textbook/node_modules/readable-stream/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/readable-stream/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

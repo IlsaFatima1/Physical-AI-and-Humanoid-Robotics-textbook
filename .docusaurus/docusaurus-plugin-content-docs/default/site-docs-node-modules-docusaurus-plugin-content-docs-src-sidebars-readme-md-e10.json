@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@docusaurus/plugin-content-docs/src/sidebars/README",
+  "title": "Sidebars",
+  "description": "This part is very complicated and hard to navigate. Sidebars are loaded through the following steps:",
+  "source": "@site/docs/node_modules/@docusaurus/plugin-content-docs/src/sidebars/README.md",
+  "sourceDirName": "node_modules/@docusaurus/plugin-content-docs/src/sidebars",
+  "slug": "/node_modules/@docusaurus/plugin-content-docs/src/sidebars/",
+  "permalink": "/physical-ai-textbook/node_modules/@docusaurus/plugin-content-docs/src/sidebars/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@docusaurus/plugin-content-docs/src/sidebars/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

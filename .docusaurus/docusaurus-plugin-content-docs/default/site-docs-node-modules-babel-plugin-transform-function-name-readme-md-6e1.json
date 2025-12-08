@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/plugin-transform-function-name/README",
+  "title": "@babel/plugin-transform-function-name",
+  "description": "Apply ES2015 function.name semantics to all functions",
+  "source": "@site/docs/node_modules/@babel/plugin-transform-function-name/README.md",
+  "sourceDirName": "node_modules/@babel/plugin-transform-function-name",
+  "slug": "/node_modules/@babel/plugin-transform-function-name/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/plugin-transform-function-name/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/plugin-transform-function-name/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

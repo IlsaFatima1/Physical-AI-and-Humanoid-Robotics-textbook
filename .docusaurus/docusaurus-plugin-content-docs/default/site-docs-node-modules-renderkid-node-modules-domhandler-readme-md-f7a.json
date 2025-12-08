@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/renderkid/node_modules/domhandler/readme",
+  "title": "domhandler [![Build Status](https://travis-ci.com/fb55/domhandler.svg?branch=master)](https://travis-ci.com/fb55/domhandler)",
+  "description": "The DOM handler creates a tree containing all nodes of a page.",
+  "source": "@site/docs/node_modules/renderkid/node_modules/domhandler/readme.md",
+  "sourceDirName": "node_modules/renderkid/node_modules/domhandler",
+  "slug": "/node_modules/renderkid/node_modules/domhandler/",
+  "permalink": "/physical-ai-textbook/node_modules/renderkid/node_modules/domhandler/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/renderkid/node_modules/domhandler/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

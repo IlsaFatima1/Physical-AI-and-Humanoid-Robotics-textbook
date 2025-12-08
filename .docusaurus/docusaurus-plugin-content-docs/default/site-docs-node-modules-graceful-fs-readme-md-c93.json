@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/graceful-fs/README",
+  "title": "graceful-fs",
+  "description": "graceful-fs functions as a drop-in replacement for the fs module,",
+  "source": "@site/docs/node_modules/graceful-fs/README.md",
+  "sourceDirName": "node_modules/graceful-fs",
+  "slug": "/node_modules/graceful-fs/",
+  "permalink": "/physical-ai-textbook/node_modules/graceful-fs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/graceful-fs/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

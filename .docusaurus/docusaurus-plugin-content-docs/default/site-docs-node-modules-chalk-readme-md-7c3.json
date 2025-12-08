@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/chalk/readme",
+  "title": "readme",
+  "description": "Terminal string styling done right",
+  "source": "@site/docs/node_modules/chalk/readme.md",
+  "sourceDirName": "node_modules/chalk",
+  "slug": "/node_modules/chalk/",
+  "permalink": "/physical-ai-textbook/node_modules/chalk/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/chalk/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

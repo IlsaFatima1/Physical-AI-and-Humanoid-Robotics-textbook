@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@babel/helper-module-imports/README",
+  "title": "@babel/helper-module-imports",
+  "description": "Babel helper functions for inserting module loads",
+  "source": "@site/docs/node_modules/@babel/helper-module-imports/README.md",
+  "sourceDirName": "node_modules/@babel/helper-module-imports",
+  "slug": "/node_modules/@babel/helper-module-imports/",
+  "permalink": "/physical-ai-textbook/node_modules/@babel/helper-module-imports/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@babel/helper-module-imports/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

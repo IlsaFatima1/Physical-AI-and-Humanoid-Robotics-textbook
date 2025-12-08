@@ -1,0 +1,15 @@
+{
+  "id": "node_modules/@mdx-js/mdx/readme",
+  "title": "@mdx-js/mdx",
+  "description": "Build",
+  "source": "@site/docs/node_modules/@mdx-js/mdx/readme.md",
+  "sourceDirName": "node_modules/@mdx-js/mdx",
+  "slug": "/node_modules/@mdx-js/mdx/",
+  "permalink": "/physical-ai-textbook/node_modules/@mdx-js/mdx/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/docs/node_modules/@mdx-js/mdx/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
