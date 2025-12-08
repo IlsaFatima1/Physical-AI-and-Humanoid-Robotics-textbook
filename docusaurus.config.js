@@ -150,10 +150,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // --- IMPORTANT: GitHub Pages Deployment ---
-  url: 'https://IlsaFatima.github.io',        // YOUR GitHub Pages URL
-  baseUrl: '/physical-ai-textbook/',          // REPO NAME with trailing slash
-  organizationName: 'IlsaFatima1',             // Your GitHub username
-  projectName: 'Physical-AI-and-Humanoid-Robotics-textbook',        // Repository name
+  url: 'https://IlsaFatima.github.io',        
+  baseUrl: '/physical-ai-textbook/',          
+  organizationName: 'IlsaFatima1',            
+  projectName: 'physical-ai-textbook',        
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -173,8 +173,8 @@ const config = {
           editUrl:
             'https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/',
 
-          routeBasePath: '/',   // Docs at root
-          path: 'docs',         // All markdown files inside /docs folder
+          routeBasePath: '/',   
+          path: 'docs',        
         },
 
         blog: false,
