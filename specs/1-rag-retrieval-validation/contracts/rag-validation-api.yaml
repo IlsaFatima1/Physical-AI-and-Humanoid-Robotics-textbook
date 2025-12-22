@@ -1,0 +1,152 @@
+# RAG Validation API Contract
+
+## Base URL
+`/api/v1/rag-validation`
+
+## Endpoints
+
+### POST /queries
+Execute a semantic search query and validate the results.
+
+**Request Body:**
+```json
+{
+  "query_text": "string (required) - The natural language query",
+  "query_type": "enum (optional) - One of: 'factual', 'conceptual', 'procedural'. Default: 'factual'",
+  "top_k": "integer (optional) - Number of top results to retrieve. Default: 3, Max: 10",
+  "validate_metadata": "boolean (optional) - Whether to perform metadata validation. Default: true"
+}
+```
+
+**Response:**
+```json
+{
+  "query_id": "string - Unique identifier for the query",
+  "retrieved_chunks": [
+    {
+      "id": "string - Unique identifier for the chunk",
+      "content": "string - The text content of the retrieved chunk",
+      "relevance_score": "number - Semantic similarity score between 0.0 and 1.0",
+      "position": "integer - Position of chunk in original document",
+      "metadata": {
+        "source_url": "string - URL or path to the original source",
+        "chunk_index": "integer - Index position of this chunk in the document sequence",
+        "creation_timestamp": "string - ISO 8601 datetime when chunk was created",
+        "document_title": "string - Title of the source document",
+        "section": "string - Section or chapter name in the textbook",
+        "page_reference": "string (optional) - Page number or location in original document"
+      }
+    }
+  ],
+  "validation_result": {
+    "validation_passed": "boolean - Whether validation criteria were met",
+    "relevance_metrics": {
+      "top_k_accuracy": "number - Percentage of top-k results that are relevant",
+      "mean_reciprocal_rank": "number - MRR of relevant results",
+      "precision_at_k": {
+        "3": "number - Precision at k=3",
+        "5": "number - Precision at k=5"
+      },
+      "semantic_similarity_scores": "array[number] - Individual similarity scores"
+    },
+    "metadata_validation": {
+      "all_metadata_present": "boolean - Whether all required metadata fields are present",
+      "metadata_accuracy": {
+        "source_url": "boolean",
+        "chunk_index": "boolean",
+        "creation_timestamp": "boolean",
+        "document_title": "boolean",
+        "section": "boolean"
+      },
+      "missing_fields": "array[string] - List of any missing metadata fields",
+      "errors": "array[string] - Any validation errors encountered"
+    },
+    "validation_timestamp": "string - ISO 8601 datetime when validation was performed"
+  }
+}
+```
+
+**Status Codes:**
+- 200: Success
+- 400: Invalid request parameters
+- 422: Validation error (e.g., invalid query type)
+- 500: Internal server error
+- 503: Service unavailable (e.g., Qdrant connection failure)
+
+### GET /queries/{query_id}
+Get the results of a previously executed query.
+
+**Path Parameters:**
+- `query_id`: string - Unique identifier of the query to retrieve
+
+**Response:**
+Same as POST /queries response
+
+**Status Codes:**
+- 200: Success
+- 404: Query not found
+- 500: Internal server error
+
+### POST /validation/run-all
+Execute a comprehensive validation suite with multiple test queries.
+
+**Request Body:**
+```json
+{
+  "test_suite": "string (optional) - Name of the test suite to run. Default: 'comprehensive'",
+  "sample_size": "integer (optional) - Number of test queries to execute. Default: 100"
+}
+```
+
+**Response:**
+```json
+{
+  "validation_suite_id": "string - Unique identifier for the validation suite run",
+  "total_queries": "integer - Total number of queries executed",
+  "queries_passed": "integer - Number of queries that passed validation",
+  "overall_accuracy": "number - Overall validation accuracy as a percentage",
+  "detailed_results": [
+    {
+      "query_id": "string",
+      "query_text": "string",
+      "validation_passed": "boolean",
+      "relevance_score": "number"
+    }
+  ],
+  "summary_metrics": {
+    "top_k_accuracy": "number",
+    "mean_reciprocal_rank": "number",
+    "metadata_accuracy": "number"
+  },
+  "execution_timestamp": "string - ISO 8601 datetime when validation was executed"
+}
+```
+
+**Status Codes:**
+- 200: Success
+- 400: Invalid request parameters
+- 500: Internal server error
+- 503: Service unavailable
+
+## Error Response Format
+All error responses follow this format:
+```json
+{
+  "error": {
+    "code": "string - Error code",
+    "message": "string - Human-readable error message",
+    "details": "object (optional) - Additional error details"
+  }
+}
+```
+
+## Authentication
+All endpoints require API key authentication via the `Authorization` header:
+```
+Authorization: Bearer {api_key}
+```
+
+## Rate Limiting
+Rate limits may apply based on the API key. Standard limits:
+- 100 requests per minute per API key
+- 10,000 requests per day per API key

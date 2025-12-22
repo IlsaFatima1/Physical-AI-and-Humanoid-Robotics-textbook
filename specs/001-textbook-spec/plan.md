@@ -33,6 +33,15 @@ Generate a comprehensive Physical AI & Humanoid Robotics textbook with 15 chapte
 - ✅ Accessibility and Inclusivity: Content must be accessible to diverse audiences with varying technical expertise
 - ✅ Comprehensive Documentation Standards: All code examples must include proper documentation with clear comments
 
+
+### Architecture
+- **Backend**: Python application using UV package manager
+- **Embedding Service**: Cohere ARI for vector genration
+- **Vector Database**: Qdrant for storage and retrieval
+- ** Target site**:https://physical-ai-textbook-eight.vercel.app/
+- **SiteMap URL**:https://physical-ai-textbook-eight.vercel.app/sitemap.xml
+
+
 ## Project Structure
 
 ### Documentation (this feature)

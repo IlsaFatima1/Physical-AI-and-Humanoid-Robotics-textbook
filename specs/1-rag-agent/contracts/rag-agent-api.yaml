@@ -1,0 +1,79 @@
+# RAG Agent API Contract
+
+## Base URL
+`/`
+
+## Endpoints
+
+### POST /chat
+Process a user query using the RAG agent and return a contextual response.
+
+**Request Body:**
+```json
+{
+  "query": "string (required) - The user's question about the textbook content",
+  "history": [
+    {
+      "role": "string (required) - 'user' or 'assistant'",
+      "content": "string (required) - The message content"
+    }
+  ],
+  "temperature": "number (optional) - Response randomness parameter between 0.0 and 1.0. Default: 0.7"
+}
+```
+
+**Response:**
+```json
+{
+  "response": "string - The agent's answer to the user's query",
+  "context": [
+    "string - Retrieved text chunks that informed the response"
+  ],
+  "sources": [
+    "string - Source identifiers for the retrieved content"
+  ],
+  "timestamp": "string - ISO 8601 datetime when response was generated"
+}
+```
+
+**Status Codes:**
+- 200: Success
+- 400: Invalid request parameters
+- 422: Validation error (e.g., empty query)
+- 500: Internal server error
+- 503: Service unavailable (e.g., Qdrant or Gemini API connection failure)
+
+### GET /health
+Check the health status of the RAG agent service.
+
+**Response:**
+```json
+{
+  "status": "string - Service health status (e.g., 'healthy', 'degraded', 'unhealthy')",
+  "timestamp": "string - ISO 8601 datetime of the health check"
+}
+```
+
+**Status Codes:**
+- 200: Service is healthy
+- 503: Service is unhealthy
+
+## Error Response Format
+All error responses follow this format:
+```json
+{
+  "error": {
+    "code": "string - Error code",
+    "message": "string - Human-readable error message",
+    "details": "object (optional) - Additional error details"
+  }
+}
+```
+
+## Authentication
+All endpoints are currently public. Future versions may implement API key authentication.
+
+## Rate Limiting
+Rate limits may apply based on deployment configuration. Standard limits:
+- 100 requests per minute per IP address
+- 10,000 requests per day per IP address

@@ -1,0 +1,6 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+cohere>=5.5.3
+qdrant-client>=1.8.0
+aiohttp>=3.9.0
+lxml>=4.9.0
