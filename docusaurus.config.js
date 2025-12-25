@@ -8,7 +8,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Railway deployment
-  url: 'https://physical-ai-textbook.up.railway.app',
+  // URL ko env variable se handle karo taake har deploy pe change na karna pade
+  url: process.env.RAILWAY_STATIC_URL || 'http://localhost:3000',
   baseUrl: '/',
 
   organizationName: 'IlsaFatima1',
@@ -31,11 +32,9 @@ const config = {
           routeBasePath: '/',      // textbook homepage
           path: 'docs',
           editUrl:
-            'https://github.com/IlsaFatima1/physical-ai-textbook/tree/main/',
+            'https://github.com/IlsaFatima1/Physical-AI-and-Humanoid-Robotics-textbook/tree/main/',
         },
-
         blog: false,
-
         theme: {
           customCss: [
             require.resolve('./src/css/custom.css'),
@@ -63,7 +62,7 @@ const config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/IlsaFatima1/physical-ai-textbook',
+          href: 'https://github.com/IlsaFatima1/Physical-AI-and-Humanoid-Robotics-textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -117,7 +116,7 @@ const config = {
     // Add any themes here
   ],
 
-  // Enable environment variable replacement
+  // Environment variable for API base URL
   customFields: {
     REACT_APP_API_BASE_URL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000',
   },
