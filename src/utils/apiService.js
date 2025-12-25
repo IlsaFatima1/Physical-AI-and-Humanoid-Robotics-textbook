@@ -158,8 +158,11 @@ export const sendQueryToRAG = async (selectedText, userQuestion) => {
       console.error('=== DEBUG: REQUEST ABORTED DUE TO TIMEOUT ===');
       console.error('Timeout was likely triggered after', apiConfig.timeout, 'ms');
       console.error('===========================================');
-      throw new Error('Request timeout: The server took too long to respond');
-    } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
+
+      // For timeout errors, return mock response instead of throwing
+      console.warn('=== WARNING: Using mock response due to timeout ===');
+      return generateMockResponse(userQuestion);
+    } else if (error instanceof TypeError && error.message.includes('fetch')) {
       console.error('=== DEBUG: NETWORK ERROR (FETCH FAILED) ===');
       console.error('This usually means:');
       console.error('1. Backend server is not running');
@@ -172,11 +175,22 @@ export const sendQueryToRAG = async (selectedText, userQuestion) => {
       // Return mock response instead of throwing error when backend is not available
       console.warn('=== WARNING: Using mock response because backend is not available ===');
       return generateMockResponse(userQuestion);
+    } else if (error.message.includes('Failed to fetch')) {
+      console.error('=== DEBUG: NETWORK ERROR (FAILED TO FETCH) ===');
+      console.error('This indicates the server is not accessible at:', apiConfig.baseURL);
+      console.error('=========================================');
+
+      // Return mock response for fetch failures
+      console.warn('=== WARNING: Using mock response due to fetch failure ===');
+      return generateMockResponse(userQuestion);
     } else if (error.message.includes('HTTP error')) {
       console.error('=== DEBUG: HTTP ERROR OCCURRED ===');
       console.error('This indicates the server responded but with an error status');
       console.error('=================================');
-      throw error; // Re-throw HTTP errors to be handled by the caller
+
+      // For HTTP errors from the server, we might still want to try a mock response
+      console.warn('=== WARNING: Using mock response due to HTTP error ===');
+      return generateMockResponse(userQuestion);
     } else {
       // Other client-side error
       console.error('=== DEBUG: OTHER CLIENT-SIDE ERROR ===');

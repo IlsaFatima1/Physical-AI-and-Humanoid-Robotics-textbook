@@ -1,4 +1,5 @@
-
+from pydantic import BaseModel
+from typing import Optional
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -6,14 +7,16 @@ import logging
 import time
 import os
 from datetime import datetime
-
 from rag_agent.agent import run_agent
 
-# --------------------------------------------------
-# Logging
-# --------------------------------------------------
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+class ChatRequest(BaseModel):
+    question: Optional[str] = None
+    message: Optional[str] = None
 
 # --------------------------------------------------
 # FastAPI app
@@ -24,7 +27,7 @@ app = FastAPI(
 )
 
 # --------------------------------------------------
-# CORS (frontend ke liye zaroori)
+# CORS
 # --------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
@@ -39,10 +42,7 @@ app.add_middleware(
 # --------------------------------------------------
 @app.get("/")
 async def root():
-    return {
-        "status": "running",
-        "message": "Backend is working"
-    }
+    return {"status": "running"}
 
 # --------------------------------------------------
 # Health
@@ -55,100 +55,58 @@ async def health():
     }
 
 # --------------------------------------------------
-# CHAT ENDPOINT (🔥 MAIN FIX)
+# CHAT ENDPOINT (FINAL FIX)
 # --------------------------------------------------
 @app.post("/chat")
-async def chat_endpoint(request: Request):
-    print("DEBUG: Chat endpoint called")
+async def chat_endpoint(payload: ChatRequest):
     try:
-        print("DEBUG: Reading request body...")
-        body = await request.json()
-        print(f"DEBUG: Request body received: {body}")
+        question = payload.question or payload.message
 
-        message = body.get("message")
-        print(f"DEBUG: Message extracted: {message}")
-
-        if not message:
-            print("DEBUG: No message provided")
+        if not question or not question.strip():
             return JSONResponse(
-                status_code=200,
-                content={"answer": "No message provided"}
+                status_code=400,
+                content={"answer": "No question provided"}
             )
 
-        # Check environment variables before calling agent
-        print("DEBUG: Checking environment variables...")
-        gemini_api_key = os.getenv("GEMINI_API_KEY")
-        cohere_api_key = os.getenv("COHERE_API_KEY")
-        qdrant_url = os.getenv("QDRANT_URL", "localhost")
-        qdrant_port = os.getenv("QDRANT_PORT", "6333")
-        print(f"DEBUG: GEMINI_API_KEY set: {bool(gemini_api_key)}")
-        print(f"DEBUG: COHERE_API_KEY set: {bool(cohere_api_key)}")
-        print(f"DEBUG: QDRANT_URL: {qdrant_url}")
-        print(f"DEBUG: QDRANT_PORT: {qdrant_port}")
+        start_time = time.time()
+        logger.info(f"User question: {question}")
 
-        print("DEBUG: Calling agent...")
-        start = time.time()
+        result = await run_agent(question)
 
-        # Call agent directly
-        answer = await run_agent(message)
-        print(f"DEBUG: Agent response received: {answer[:100]}..." if len(str(answer)) > 100 else f"DEBUG: Agent response received: {answer}")
+        response_time = round(time.time() - start_time, 2)
 
-        response_time = time.time() - start
-        print(f"DEBUG: Agent processing time: {response_time:.2f}s")
-
-        response = {
-            "answer": str(answer),
-            "created": int(time.time())
+        return {
+            "answer": str(result),
+            "response_time": response_time,
+            "timestamp": int(time.time())
         }
-        print(f"DEBUG: Returning response")
-        return response
 
     except Exception as e:
-        print(f"DEBUG: Chat endpoint error: {e}")
-        import traceback
-        print(f"DEBUG: Error traceback: {traceback.format_exc()}")
-
-        logger.exception("Chat error")
+        logger.exception("Chat endpoint error")
         return JSONResponse(
-            status_code=200,   # frontend-safe
+            status_code=500,
             content={
-                "answer": "Sorry, something went wrong. Please try again.",
+                "answer": "Internal server error",
                 "error": str(e) if os.getenv("DEBUG") == "true" else None
             }
         )
 
 # --------------------------------------------------
-# QUERY ENDPOINT (OPTIONAL)
+# QUERY ENDPOINT (OPTIONAL / SAME LOGIC)
 # --------------------------------------------------
 @app.post("/query")
 async def query_endpoint(request: Request):
-    try:
-        body = await request.json()
-        query = body.get("query")
+    body = await request.json()
+    question = body.get("query")
 
-        if not query:
-            return JSONResponse(
-                status_code=200,
-                content={"answer": "No query provided"}
-            )
+    if not question:
+        return {"answer": "No query provided"}
 
-        answer = await run_agent(query)
-
-        return {
-            "query": query,
-            "answer": str(answer),
-            "timestamp": datetime.now().isoformat()
-        }
-
-    except Exception as e:
-        logger.exception("Query error")
-        return JSONResponse(
-            status_code=200,
-            content={
-                "answer": "Sorry, something went wrong.",
-                "error": str(e) if os.getenv("DEBUG") == "true" else None
-            }
-        )
+    result = await run_agent(question)
+    return {
+        "answer": str(result),
+        "timestamp": datetime.now().isoformat()
+    }
 
 # --------------------------------------------------
 # Run locally
@@ -159,5 +117,5 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         port=8000,
-        reload=False
+        reload=True
     )
